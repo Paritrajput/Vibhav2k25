@@ -171,7 +171,7 @@
     {
       "Name": "Aditya Verma",
       "NickName": "Aadi",
-      "Profile": "/Assets/TeamPhotos/Third/verma.webp",
+      "Profile": "/Assets/TeamPhotos/Third/Aditya Verma.webp",
       "Github": "https://github.com/Vibrantrescue",
       "LinkedIn": "https://www.linkedin.com/in/aditya-verma-259762250",
       "Position": "COORDINATOR"
@@ -197,7 +197,7 @@
     {
       "Name": "Ashish Sadyal",
       "NickName": "Sadyal",
-      "Profile": "/Assets/TeamPhotos/Third/sadyal.webp",
+      "Profile": "/Assets/TeamPhotos/Third/Ashish Sadyal.webp",
       "Github": "https://github.com/Ashish122121",
       "LinkedIn": "https://www.linkedin.com/in/ashish-sadyal-81084a265",
       "Position": "COORDINATOR"
@@ -206,7 +206,7 @@
     {
       "Name": "Devika Kapoor",
       "NickName": "Devika",
-      "Profile": "/Assets/TeamPhotos/Third/Devika.webp",
+      "Profile": "/Assets/TeamPhotos/Third/Devika Kapoor.webp",
       "Github": "https://github.com/Devika35",
       "LinkedIn": "https://www.linkedin.com/in/devika-kapoor-aa9aa4257",
       "Position": "COORDINATOR"
@@ -251,7 +251,7 @@
     {
       "Name": "Riya Singhal",
       "NickName": "Singhal",
-      "Profile": "/Assets/TeamPhotos/Third/RIYA-SINGHAL.webp",
+      "Profile": "/Assets/TeamPhotos/Third/Riya Singhal.webp",
       "Github": "https://github.com/Riya007-code-eng",
       "LinkedIn": "https://www.linkedin.com/in/riya-singhal-999811258",
       "Position": "COORDINATOR"
@@ -308,10 +308,19 @@
 
   ],
   "Second Year": [
+    {
+      "Name": "Ashay Jain",
+      "NickName": "Ashay",
+      "Profile": "/Assets/TeamPhotos/Second/Ashay Jain.webp",
+      "Github": "https://github.com/AshayJain-NITH",
+      "LinkedIn": "https://www.linkedin.com/in/ashay-jain-3aa468288/",
+      "Instagram": "https://www.instagram.com/ashay_0805/?hl=en",
+      "Position": "EXECUTIVE MEMBER"
+    },
 
     {
       "Name": "Ayush Kumar",
-      "NickName": "Ayush Kumar",
+      "NickName": "Ayush",
       "Profile": "/Assets/TeamPhotos/Second/ayush.webp",
       "Github": "https://github.com/httpsAKayush",
       "LinkedIn": "",
@@ -322,7 +331,7 @@
     {
       "Name": "Bhavneet Singh",
       "NickName": "Bhavneet",
-      "Profile": "/Assets/TeamPhotos/Second/Bhavneet Singh_.webp",
+      "Profile": "/Assets/TeamPhotos/Second/Bhavneet Singh.webp",
       "Github": "https://github.com/bhavneet1512",
       "LinkedIn": "https://www.linkedin.com/in/bhavneet-singh-a8a24a280/",
       "Instagram":"https://www.instagram.com/bhavneetsingh1512/",
@@ -331,16 +340,16 @@
     {
       "Name": "Chetan Nehra",
       "NickName": "Chetan",
-      "Profile": "/Assets/TeamPhotos/Second/Bhavneet Singh_.webp",
-      "Github": "https://github.com/shivamkhana1000",
-      "LinkedIn": "https://www.linkedin.com/in/shivam-k-a11279290/",
-      "Instagram": "https://www.instagram.com/shivam_k_29/",
+      "Profile": "/Assets/TeamPhotos/Second/Chetan Nehra.webp",
+      "Github": "",
+      "LinkedIn": "",
+      "Instagram": "",
       "Position": "EXECUTIVE MEMBER"
     },
     {
       "Name": "Deepanshu Singh",
       "NickName": "DJ Singh",
-      "Profile": "/Assets/TeamPhotos/Second/Deepanshu singh.webp",
+      "Profile": "/Assets/TeamPhotos/Second/Deepanshu Singh.webp",
       "Github": "https://github.com/Deepanshusingh5151",
       "LinkedIn": "https://www.linkedin.com/in/deepanshu-singh-492bb3283/",
       "Instagram": "https://www.instagram.com/deepanshusingh5151/",
@@ -356,7 +365,7 @@
       "Position": "EXECUTIVE MEMBER"
     },
     {
-      "Name": "Inika Agarwaal",
+      "Name": "Inika Aggarwal",
       "NickName": "Inika",
       "Profile": "/Assets/TeamPhotos/Second/Inika Aggarwal.webp",
       "Github": "https://github.com/Inikaaggarwal",
@@ -366,16 +375,27 @@
     },
     {
       "Name": "Keshav Chandel",
-      "NickName": "Keshav",
+      "NickName": "Bilaspuri Dhaam",
       "Profile": "/Assets/TeamPhotos/Second/Keshav Chandel.webp",
-      "Github": "https://github.com/Inikaaggarwal",
-      "LinkedIn": "https://www.linkedin.com/in/inika-aggarwal-1406632aa/",
-      "Instagram": "https://www.instagram.com/inikaaggarwal.16/",
+      "Github": "",
+      "LinkedIn": "",
+      "Instagram": "",
       "Position": "EXECUTIVE MEMBER"
     },
+
+    {
+      "Name": "Lokesh Kumar",
+      "NickName": "Lokesh",
+      "Profile": "/Assets/TeamPhotos/Second/Lokesh Kumar.webp",
+      "Github": "https://github.com/lokesh772705",
+      "LinkedIn": "https://www.linkedin.com/in/lokesh-kumar-b92519290",
+      "Instagram": "https://www.instagram.com/lokeshjais007",
+      "Position": "EXECUTIVE MEMBER"
+    },
+
     {
       "Name": "Madhaw Kumar Bagadia",
-      "NickName": "Unknown",
+      "NickName": "Pablo",
       "Profile": "/Assets/TeamPhotos/Second/Madhaw Kumar Bagadia.webp",
       "Github": "https://github.com/madhawbagadia",
       "LinkedIn": "https://www.linkedin.com/in/madhaw-kumar-bagadia-79038a28a/",
@@ -385,15 +405,16 @@
     {
       "Name": "Mohit Sharma",
       "NickName": "Mohit",
-      "Profile": "/Assets/TeamPhotos/Second/mohit.webp",
+      "Profile": "/Assets/TeamPhotos/Second/Mohit.webp",
       "Github": "",
       "LinkedIn": "",
+      "Instagram": "",
       "Position": "EXECUTIVE MEMBER"
     },
     {
       "Name": "Nandinee Tandon",
       "NickName": "Nandu Panda",
-      "Profile": "/Assets/TeamPhotos/Second/Nandinee.webp",
+      "Profile": "/Assets/TeamPhotos/Second/Nandinee Tandon.webp",
       "Github": "https://github.com/Nandinee-Tandon",
       "LinkedIn": "https://www.linkedin.com/in/nandinee-tandon-570a612b4/",
       "Instagram": "https://www.instagram.com/nandineeee_09/",
@@ -429,7 +450,7 @@
     {
       "Name": "Ratnesh Dev Tudu",
       "NickName": "Ratnesh",
-      "Profile": "/Assets/TeamPhotos/Second/Ratnesh.webp",
+      "Profile": "/Assets/TeamPhotos/Second/Ratnesh Dev Tudu.webp",
       "Github": "https://github.com/tuduratnesh",
       "LinkedIn": "http://www.linkedin.com/in/ratneshdevtudu",
       "Instagram": "https://www.instagram.com/invites/contact/?igsh=1enqid004dewq&utm_content=i7j6glh",
@@ -438,7 +459,7 @@
     {
       "Name": "Rishika Sharma",
       "NickName": "Rishu",
-      "Profile": "/Assets/TeamPhotos/Second/Rishika.webp",
+      "Profile": "/Assets/TeamPhotos/Second/Rishika Sharma.webp",
       "Github": "https://github.com/Rishika-82",
       "LinkedIn": "https://www.linkedin.com/in/rishika-sharma-0583a6292/",
       "Instagram": "https://www.instagram.com/rishikasharma348/",
@@ -447,7 +468,7 @@
     {
       "Name": "Sachin Thakur",
       "NickName": "Mr. Confused",
-      "Profile": "/Assets/TeamPhotos/Second/sachin.webp",
+      "Profile": "/Assets/TeamPhotos/Second/Sachin Thakur.webp",
       "Github": "https://github.com/sachinthakur4002",
       "LinkedIn": "https://www.linkedin.com/in/sachin-thakur-2a01122b0/",
       "Instagram": "https://www.instagram.com/thakur_5248/",
@@ -477,28 +498,28 @@
     {
       "Name": "Shresth Sharma",
       "NickName": "Shresth",
-      "Profile": "/Assets/TeamPhotos/Second/Shreshth.webp",
-      "Github": "https://github.com/shresth2405",
-      "LinkedIn": "https://www.linkedin.com/in/shresth-maheshwari-1a8a7028b/",
-      "Instagram": "https://www.instagram.com/shresth2405?igsh=cGJrMGp4cWpiYnA5",
+      "Profile": "/Assets/TeamPhotos/Second/Shreshth Sharma.webp",
+      "Github": "https://github.com/Shreshtthh",
+      "LinkedIn": "https://www.linkedin.com/in/shreshth-sharma-a76128280/",
+      "Instagram": "https://www.instagram.com/shreshth.013?igsh=MTdwaTJ2aW16amNodw==",
       "Position": "EXECUTIVE MEMBER"
     },
     {
-      "Name": "Tanishq",
+      "Name": "Tanishq Thakur",
       "NickName": "Tanishq",
-      "Profile": "/Assets/TeamPhotos/Second/Tanishq.webp",
-      "Github": "https://github.com/Shivi002",
-      "LinkedIn": "https://www.linkedin.com/in/shivi-singh-9b1b6226a/",
-      "Instagram": "https://www.instagram.com/_shivi.7/",
+      "Profile": "/Assets/TeamPhotos/Second/Tanishq Thakur.webp",
+      "Github": "https://github.com/tanishqq00",
+      "LinkedIn": "https://www.linkedin.com/in/tanishq-thakur-70b30118b/",
+      "Instagram": "https://www.instagram.com/thakurtanishq_/",
       "Position": "EXECUTIVE MEMBER"
     },
     {
-      "Name": "Uday",
+      "Name": "Uday Pratap Singh",
       "NickName": "Uday",
-      "Profile": "/Assets/TeamPhotos/Second/Uday.webp",
-      "Github": "https://github.com/Shivi002",
-      "LinkedIn": "https://www.linkedin.com/in/shivi-singh-9b1b6226a/",
-      "Instagram": "https://www.instagram.com/_shivi.7/",
+      "Profile": "/Assets/TeamPhotos/Second/Uday Pratap Singh.webp",
+      "Github": "",
+      "LinkedIn": "",
+      "Instagram": "",
       "Position": "EXECUTIVE MEMBER"
     }
   ],
@@ -509,7 +530,7 @@
       "Profile": "/Assets/TeamPhotos/First/Abhinav.webp",
       "Github": "https://github.com/DrBig-Brain",
       "LinkedIn": "https://www.linkedin.com/in/abhinav-mishra-211b7a327/",
-      "Instagram": "",
+      "Instagram": "https://www.instagram.com/dr.big_brain/profilecard/?igsh=MXQ2MnpkdXRlbHpxcA==",
       "Position": "VOLUNTEER"
     },
     {
@@ -518,7 +539,7 @@
       "Profile": "/Assets/TeamPhotos/First/Akshit chaudhary.webp",
       "Github": "https://github.com/AKSHITdebugg",
       "LinkedIn": "https://www.linkedin.com/in/akshit-chaudhary-944174344/",
-      "Instagram": "",
+      "Instagram": "https://www.instagram.com/_akxxhit_?igsh=MXZzd3AzZHJwOXMzag==",
       "Position": "VOLUNTEER"
     },
     {
@@ -527,7 +548,7 @@
       "Profile": "/Assets/TeamPhotos/First/Ashutosh.webp",
       "Github": "https://github.com/Ashutosh-NITH",
       "LinkedIn": "http://www.linkedin.com/in/ashutosh-kumar-720b60348",
-      "Instagram": "",
+      "Instagram": "https://www.instagram.com/ashuuuuu_23/",
       "Position": "VOLUNTEER"
     },
     {
@@ -535,8 +556,8 @@
       "NickName": "Bhavya",
       "Profile": "/Assets/TeamPhotos/First/Bhavya.webp",
       "Github": "https://github.com/bhavya-jpg",
-      "LinkedIn": "https://www.linkedin.com/in/bhavya-aggarwal-6208bb2b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "Instagram":"",
+      "LinkedIn": "https://www.linkedin.com/in/bhavya-aggarwal-6208bb2b4/",
+      "Instagram":"https://www.instagram.com/bhavya1209_?igsh=MXF6eTlmaG1qNDZjcg==",
       "Position": "VOLUNTEER"
     },
     {
@@ -544,8 +565,8 @@
       "NickName": "Bhumi",
       "Profile": "/Assets/TeamPhotos/First/Bhumi.webp",
       "Github": "https://github.com/Bhumi230",
-      "LinkedIn": "https://www.linkedin.com/in/bhumi-k-0bb0b3349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "Instagram": "",
+      "LinkedIn": "https://www.linkedin.com/in/bhumi-k-0bb0b3349/",
+      "Instagram": "https://www.instagram.com/bhumigoyal886?igsh=MTkxNHJ6ZGhkcG53MQ==",
       "Position": "VOLUNTEER"
     },
     {
@@ -553,7 +574,7 @@
       "NickName": "Devansh",
       "Profile": "/Assets/TeamPhotos/First/Devanshjokta.webp",
       "Github": "https://github.com/dvnshsh",
-      "LinkedIn": "https://www.linkedin.com/in/devansh-k-aa9234349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "LinkedIn": "https://www.linkedin.com/in/devansh-k-aa9234349/",
       "Instagram": "",
       "Position": "VOLUNTEER"
     },
@@ -562,8 +583,8 @@
       "NickName": "Garvit",
       "Profile": "/Assets/TeamPhotos/First/Garvit.webp",
       "Github": "https://github.com/Garvit-Pandya108",
-      "LinkedIn": "https://www.linkedin.com/in/garvit-pandya-175a65232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "Instagram": "",
+      "LinkedIn": "https://www.linkedin.com/in/garvit-pandya-175a65232/",
+      "Instagram": "https://www.instagram.com/garvit_pandya051?igsh=aGhxd3BndzE0endx",
       "Position": "VOLUNTEER"
     },
     {
@@ -571,8 +592,8 @@
       "NickName": "Gaurav",
       "Profile": "/Assets/TeamPhotos/First/Gaurav.webp",
       "Github": "https://github.com/gaurav2175",
-      "LinkedIn": "https://www.linkedin.com/in/gaurav-0325b1324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "Instagram": "",
+      "LinkedIn": "https://www.linkedin.com/in/gaurav-0325b1324/",
+      "Instagram": "https://www.instagram.com/_gaurav_2175?igsh=MTcybHZvMmxsMm05eA==",
       "Position": "VOLUNTEER"
     },
     {
@@ -580,7 +601,8 @@
       "NickName": "GPS",
       "Profile": "/Assets/TeamPhotos/First/Gaurav Pratap Singh.webp",
       "Github": "https://github.com/GeniusG1",
-      "LinkedIn": "https://www.linkedin.com/in/gaurav-pratap-singh-863889313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "LinkedIn": "https://www.linkedin.com/in/gaurav-pratap-singh-863889313/",
+      "Instagram": "https://www.instagram.com/gauravprataparts?igsh=eG5xcWV4amRhdHY4",
       "Position": "VOLUNTEER"
     },
     {
@@ -589,7 +611,7 @@
       "Profile": "/Assets/TeamPhotos/First/HarshVerma.webp",
       "Github": "https://github.com/codesharsh",
       "LinkedIn": "https://www.linkedin.com/in/harsh-verma-3866b4325/",
-      "Instagram": "",
+      "Instagram": "https://www.instagram.com/aaharshh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       "Position": "VOLUNTEER"
     },
     {
@@ -597,8 +619,8 @@
       "NickName": "kartik",
       "Profile": "/Assets/TeamPhotos/First/Kartik.webp",
       "Github": "https://github.com/BabuRaoGanpat69",
-      "LinkedIn": "https://www.linkedin.com/me?trk=p_mwlite_profile_self-secondary_nav",
-      "Instagram": "",
+      "LinkedIn": "https://www.linkedin.com/in/kartik-dhiman-82463132b/",
+      "Instagram": "https://www.instagram.com/k.a.r.tik_/",
       "Position": "VOLUNTEER"
     },
     {
@@ -607,7 +629,7 @@
       "Profile": "/Assets/TeamPhotos/First/Kartikey Kesharwani.webp",
       "Github": "https://github.com/Kartikey9936",
       "LinkedIn": "https://www.linkedin.com/in/kartikey-kesharwani-63147020a",
-      "Instagram": "",
+      "Instagram": "https://www.instagram.com/kartikey_keshri?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       "Position": "VOLUNTEER"
     },
     {
@@ -615,8 +637,8 @@
       "NickName": "Lakshay",
       "Profile": "/Assets/TeamPhotos/First/Lakshay steta.webp",
       "Github": "https://github.com/stetaa",
-      "LinkedIn": "https://www.linkedin.com/in/lakshay-steta-575957330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "Instagram": "",
+      "LinkedIn": "https://www.linkedin.com/in/lakshay-steta-575957330/",
+      "Instagram": "https://www.instagram.com/lakshaysteta?igsh=cmlyZG80djRmeHVu",
       "Position": "VOLUNTEER"
     },
     {
@@ -624,8 +646,8 @@
       "NickName": "Mansi",
       "Profile": "/Assets/TeamPhotos/First/Mansi.webp",
       "Github": "https://github.com/Mansi249",
-      "LinkedIn": "https://www.linkedin.com/in/mansi-k-8bb198338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "Instagram": "",
+      "LinkedIn": "https://www.linkedin.com/in/mansi-k-8bb198338/",
+      "Instagram": "https://www.instagram.com/s.mansi09?igsh=NDNmOWZsOTJwMnJq",
       "Position": "VOLUNTEER"
     },
     {
@@ -634,7 +656,7 @@
       "Profile": "/Assets/TeamPhotos/First/Mridul.webp",
       "Github": "https://github.com/Mridul-Ahluwalia06",
       "LinkedIn": "https://www.linkedin.com/in/mridul-ahluwalia-59a25a323/",
-      "Instagram": "",
+      "Instagram": "https://www.instagram.com/mridul.ahluwalia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       "Position": "VOLUNTEER"
     },
     {
@@ -642,8 +664,8 @@
       "NickName": "Palak17",
       "Profile": "/Assets/TeamPhotos/First/Palak Chaudhary.webp",
       "Github": "https://github.com/palakchoudhary114",
-      "LinkedIn": "https://www.linkedin.com/in/palak-choudhary-42a44a33b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "Instagram": "",
+      "LinkedIn": "https://www.linkedin.com/in/palak-choudhary-42a44a33b/",
+      "Instagram": "https://www.instagram.com/palak_choudhary114?igsh=MTVvbTExMnI3dXBtcA==",
       "Position": "VOLUNTEER"
     },
     {
@@ -652,7 +674,7 @@
       "Profile": "/Assets/TeamPhotos/First/Palak Mehra.webp",
       "Github": "https://github.com/palak3338",
       "LinkedIn": "https://www.linkedin.com/in/palak-mehra-1866b5321?",
-      "Instagram": "",
+      "Instagram": "https://www.instagram.com/3338_palak?igsh=bmNjcTFpN2U2YmFn",
       "Position": "VOLUNTEER"
     },
     {
@@ -660,8 +682,8 @@
       "NickName": "Palak",
       "Profile": "/Assets/TeamPhotos/First/Palak Kumari.webp",
       "Github": "https://github.com/Palakkumari123",
-      "LinkedIn": "https://www.linkedin.com/in/palak-kumari-16a5b8348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "Instagram": "",
+      "LinkedIn": "https://www.linkedin.com/in/palak-kumari-16a5b8348/",
+      "Instagram": "https://www.instagram.com/__me_palak_?igsh=MTY3cHc3ajk2NW84dw==",
       "Position": "VOLUNTEER"
     },
     {
@@ -669,8 +691,8 @@
       "NickName": "pranju",
       "Profile": "/Assets/TeamPhotos/First/Pranjal.webp",
       "Github": "https://github.com/PranjalThakur01",
-      "LinkedIn": "https://www.linkedin.com/in/pranjal-thakur-b22602335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "Instagram": "",
+      "LinkedIn": "https://www.linkedin.com/in/pranjal-thakur-b22602335/",
+      "Instagram": "https://www.instagram.com/pranjalthakur01?igsh=bmkyN2xneDlyandi",
       "Position": "VOLUNTEER"
     },
     {
@@ -679,7 +701,7 @@
         "Profile": "/Assets/TeamPhotos/First/Prince jain.webp",
         "Github": "https://github.com/Prince-Jain212",
         "LinkedIn": "www.linkedin.com/in/prince-jain-427a32323",
-        "Instagram": "",
+        "Instagram": "https://www.instagram.com/princejain6334?igsh=dmIyYXBjcjZyZnpn",
         "Position": "VOLUNTEER"
       },
       {
@@ -687,8 +709,8 @@
         "NickName": "Lath",
         "Profile": "/Assets/TeamPhotos/First/Raghav Lath.webp",
         "Github": "https://github.com/Raghav09445",
-        "LinkedIn": "https://www.linkedin.com/in/raghav-lath-080562325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "Instagram": "",
+        "LinkedIn": "https://www.linkedin.com/in/raghav-lath-080562325/",
+        "Instagram": "https://www.instagram.com/_.raghav._91?igsh=MXN5cHJwbDZmaDcweA==",
         "Position": "VOLUNTEER"
       },
 
@@ -697,8 +719,8 @@
         "NickName": "Samaksh",
         "Profile": "/Assets/TeamPhotos/First/Samaksh.webp",
         "Github": "https://github.com/Darchen-lang",
-        "LinkedIn": "https://www.linkedin.com/in/samaksh-choudhary-656347335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "Instagram": "",
+        "LinkedIn": "https://www.linkedin.com/in/samaksh-choudhary-656347335/",
+        "Instagram": "https://www.instagram.com/_s.a.m.a.k.s.h_/?utm_source=ig_web_button_share_sheet",
         "Position": "VOLUNTEER"
       },
       {
@@ -706,8 +728,8 @@
         "NickName": "Sonia",
         "Profile": "/Assets/TeamPhotos/First/Sonia Saini.webp",
         "Github": "https://github.com/SoniHubb-b",
-        "LinkedIn": "https://www.linkedin.com/in/sonia-saini-5a1570332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "Instagram": "",
+        "LinkedIn": "https://www.linkedin.com/in/sonia-saini-5a1570332/",
+        "Instagram": "https://www.instagram.com/soni.s_17?igsh=bnIyMnk4NTk4d2Mx",
         "Position": "VOLUNTEER"
       },
       {
@@ -716,7 +738,7 @@
         "Profile": "/Assets/TeamPhotos/First/Vineet.webp",
         "Github": "https://github.com/vineetkumar41",
         "LinkedIn": "https://www.linkedin.com/in/vineet-mangalraw-461167325/",
-        "Instagram": "",
+        "Instagram": "https://www.instagram.com/vineet__mangalrao/?utm_source=ig_web_button_share_sheet",
         "Position": "VOLUNTEER"
       },
     {
@@ -725,7 +747,7 @@
         "Profile": "/Assets/TeamPhotos/First/Vyom Pant.webp",
         "Github": "https://github.com/vyom-1",
         "LinkedIn": "https://www.linkedin.com/in/vyom-pant-441b8b327/",
-        "Instagram": "",
+        "Instagram": "https://www.instagram.com/vyom.pant?igsh=MTB1eWJpZzE2Z2txMQ==",
         "Position": "VOLUNTEER"
       }
   ]
