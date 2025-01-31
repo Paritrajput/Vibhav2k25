@@ -1,32 +1,40 @@
 import { useEffect, useState } from "react";
-import ProjectCard, {SkeletonProjectCard} from "../../../Components/UI/cards/ProjectCard/ProjectCard";
+import ProjectCard, {
+  SkeletonProjectCard,
+} from "../../../Components/UI/cards/ProjectCard/ProjectCard";
 import projects from "../../../data/Projects.json";
-
+import Layout from "../../../Components/UI/Layout";
 
 const Page = () => {
-  const [loading , setLoading]=useState(true)
-const [projectList, setProjectList]=useState([])
-useEffect(()=>{
-  
-  setProjectList(projects["QUANTUM COMPUTING"])
-  setTimeout(()=>{setLoading(false)},500)
-  
-})
+  const [loading, setLoading] = useState(true);
+  const [projectList, setProjectList] = useState([]);
+  useEffect(() => {
+    setProjectList(projects["QUANTUM COMPUTING"]);
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
+  });
 
   return (
-    <div className="mt-12 text-center">
-      <div className="text-4xl text-white text-center font-extrabold mb-5">
-        Projects
+    <Layout>
+      <div className="mt-12 text-center">
+        <div className="text-4xl text-white text-center font-extrabold mb-5">
+          Projects
+        </div>
+        <span className="text-3xl text-white text-center mt-12 font-bold">
+          AI-ML
+        </span>
+        <div className="container mx-auto  p-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+          {loading
+            ? Array.from({ length: projectList.length || 6 }).map(
+                (projectSkelatol, index) => <SkeletonProjectCard key={index} />
+              )
+            : projectList.map((project, index) => (
+                <ProjectCard key={index} project={project} />
+              ))}
+        </div>
       </div>
-      <span className="text-3xl text-white text-center mt-12 font-bold">
-        AI-ML
-      </span>
-      <div className="container mx-auto  p-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
-        {loading? Array.from({ length: projectList.length || 6 }).map((projectSkelatol, index)=>(<SkeletonProjectCard key={index}/> )) :projectList.map((project, index) => (
-          <ProjectCard key={index} project={project} />
-        ))}
-      </div>
-    </div>
+    </Layout>
   );
 };
 

@@ -1,7 +1,4 @@
 import "../styles/globals.css";
-import "../styles/Listing.css";
-import "../styles/Modal.css";
-import "../styles/Overlay.css";
 import Loading from "../Components/Loading";
 import AOS from "aos";
 import "aos/dist/aos.css";

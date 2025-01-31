@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ProjectCard, {SkeletonProjectCard} from "../../../Components/UI/cards/ProjectCard/ProjectCard";
 import projects from "../../../data/Projects.json";
-
+import Layout from '../../../Components/UI/Layout'
 
 
 const Page = () => {
@@ -15,6 +15,7 @@ useEffect(()=>{
 })
 
   return (
+    <Layout>
     <div className="pt-12 bg-black/50 text-center z-50">
       <div className="text-4xl text-white text-center font-extrabold mb-5 z-50">
         Projects
@@ -28,6 +29,7 @@ useEffect(()=>{
         ))}
       </div>
     </div>
+    </Layout>
   );
 };
 

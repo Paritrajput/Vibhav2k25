@@ -8,7 +8,7 @@ export default function Footer() {
           <p className="flex items-center justify-center text-xl">
             Made with ❤️ by
             <Link
-              href="/OurTeam/currteam"
+              href="/team/current-team"
               className="text-2xl text-red-400 cursor-pointer "
             >
               {" "}
