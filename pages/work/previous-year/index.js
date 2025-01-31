@@ -33,7 +33,7 @@ export default function Home() {
           {isLoading
             ? Array.from({ length: 2 }).map((_, index) => <SkeletonWorkCard key={index} />)
             : events.map((item, index) => (
-                <WorkCard key={item.id} index={index} work={item} year="PreviousYear" type="Events" />
+                <WorkCard key={item.id} index={index} work={item} year="previous-year" type="events" />
               ))}
         </div>
       </div>
@@ -45,7 +45,7 @@ export default function Home() {
           {isLoading
             ? Array.from({ length: 3 }).map((_, index) => <SkeletonWorkCard key={index} />)
             : workshops.map((item, index) => (
-                <WorkCard key={item.id} work={item} year="PreviousYear" type="Workshops" />
+                <WorkCard key={item.id} work={item} year="previous-year" type="workshops" />
               ))}
         </div>
       </div>

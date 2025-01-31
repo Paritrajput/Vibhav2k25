@@ -30,7 +30,7 @@ export const SkeletonWorkCard = () => {
 
 const WorkCard = ({ work ,type,year}) => {
   return (
-    <Link href={`/Work/${year}/${type}/${work.id}`}>
+    <Link href={`/work/${year}/${type}/${work.id}`}>
       <div className="group relative bg-cover w-72 h-[23rem] md:w-80 md:h-[25rem] bg-center rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 cursor-pointer">
         
         <div

@@ -53,8 +53,8 @@ export default function Home() {
                     key={item.id}
                     index={index}
                     work={item}
-                    year="CurrentYear"
-                    type="Events"
+                    year="current-year"
+                    type="events"
                   />
                 ))}
           </div>
@@ -72,8 +72,8 @@ export default function Home() {
                   <WorkCard
                     key={item.id}
                     work={item}
-                    year="CurrentYear"
-                    type="Workshops"
+                    year="current-year"
+                    type="workshops"
                   />
                 ))}
           </div>
