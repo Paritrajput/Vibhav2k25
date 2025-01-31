@@ -71,7 +71,7 @@ const ourwork = [
 const ourteam = [
   {
     name: "Current Team",
-    href: "/team/current-year",
+    href: "/team/current-team",
     icon: RiTeamLine,
   },
   {
