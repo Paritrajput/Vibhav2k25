@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
 
 import Link from "next/link";
 
@@ -13,7 +14,7 @@ export function Popup({ title, description, image, onClose, github }) {
         >
           ✕
         </button>
-        <motion.div className="sm:indent-20 flex flex-col justify-center items-center text-justify p-1 sm:p-8 max-sm:mt-5 ">
+        <motion.div className="sm:indent-20 flex flex-col justify-center items-center text-justify p-1 sm:p-8 max-sm:mt-5 text-white ">
           <motion.h2
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -34,7 +35,7 @@ export function Popup({ title, description, image, onClose, github }) {
           </motion.div>
         </motion.div>
         <Link href={github} className=" flex justify-center">
-          <img alt="github" src="/github.png" className="h-10 hover:scale-105 mx-0" />
+             <FaGithub className="w-[1.6rem] h-[1.6rem]"/>
         </Link>
       </div>
     </div>

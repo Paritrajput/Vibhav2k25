@@ -1,4 +1,8 @@
+
 import React from "react";
+import { FaGithub } from "react-icons/fa";
+
+import { RiLinkedinFill } from "react-icons/ri";
 
 
 
@@ -56,10 +60,10 @@ function ProfileCard({
       </div>
 
       {/* Blurred Text Container */}
-      <div className="absolute bottom-0 w-full group-hover:p-10 backdrop-blur-md p-4 text-white transition-all duration-500 ease-in-out group-hover:flex group-hover:flex-col group-hover:items-center overflow-hidden">
+      <div className="absolute bottom-0 w-full group-hover:p-5 backdrop-blur-md p-2 text-white transition-all duration-500 ease-in-out group-hover:flex group-hover:flex-col group-hover:items-center overflow-hidden">
         <h1 className="text-lg font-semibold">{name}</h1>
         <p className="text-sm text-gray-300">{position}</p>
-        <div className="flex justify-center space-x-4 mt-4">
+        <div className="flex justify-center items-center space-x-4 ">
           <div>
             {githubLink && (
               <a
@@ -68,7 +72,10 @@ function ProfileCard({
                 rel="noopener noreferrer"
                 className="hover:text-gray-400"
               >
-                <img src="/github.png" className="w-8 h-8" alt="GitHub" />
+           
+                <FaGithub className="w-[1.6rem] h-[1.6rem]"/>
+
+          
               </a>
             )}
           </div>
@@ -80,11 +87,9 @@ function ProfileCard({
                 rel="noopener noreferrer"
                 className="hover:text-gray-400"
               >
-                <img
-                  src="/linkedin-icon.png"
-                  className="w-8 h-8 "
-                  alt="Twitter"
-                />
+           
+              <RiLinkedinFill  className="w-7 h-7 "/>
+               
               </a>
             )}
           </div>
