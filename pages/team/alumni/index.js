@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react";
-import Alumni from "@/Data/Alumni.json";
+import Alumni from "../../../data/alumni.json";
 import ProfileCard from "../../../Components/UI/cards/ProfileCard";
 
 const Aluminus = () => {
