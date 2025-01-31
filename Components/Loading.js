@@ -2,6 +2,16 @@ import Image from "next/image";
 import loader from "../public/Assets/amongus.gif";
 import { useState, useEffect } from "react";
 export default function Loading() {
+  const fonts = [
+    "Arial, sans-serif",
+    "Georgia, serif",
+    "Courier New, monospace",
+    "Lucida Console, monospace",
+    "Times New Roman, serif",
+    "Verdana, sans-serif",
+    "Comic Sans MS, cursive",
+    "Impact, sans-serif",
+  ];
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -12,20 +22,39 @@ export default function Loading() {
     return () => clearTimeout(timeout);
   }, []);
 
+  const AnimatedText = ({ text }) => {
+    const [fontStyles, setFontStyles] = useState([]);
+  
+    useEffect(() => {
+      const changeFonts = () => {
+        setFontStyles(
+          text
+            .split("")
+            .map(() => fonts[Math.floor(Math.random() * fonts.length)])
+        );
+      };
+  
+      changeFonts();
+      const interval = setInterval(changeFonts, 250);
+  
+      return () => clearInterval(interval);
+    }, [text]);
+  
+    return (
+      <div className="flex space-x-1 text-4xl font-bold text-white">
+        {text.split("").map((char, index) => (
+          <span key={index} style={{ fontFamily: fontStyles[index] }}>
+            {char}
+          </span>
+        ))}
+      </div>
+    );
+  };
+  
   return (
     <div className="flex justify-center items-center h-screen">
       {loading && (
-        <div className="w-60 overflow-hidden animate-slideRight">
-          <Image
-            src={loader}
-            alt="Loading Animation"
-            layout="responsive"
-            priority
-          />
-          <div className="w-full h-2 bg-gray-200 mt-2">
-            <div className="h-full bg-blue-500 animate-loadingLine" ></div>
-          </div>
-        </div>
+        <AnimatedText text="Team Vibhav" />
       )}
     </div>
   );
