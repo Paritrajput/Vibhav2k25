@@ -119,6 +119,12 @@ html {
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'batman';
+  src: url('/assets/fonts/BatmanForever.ttf') format('truetype');
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
 
 
 :root {
