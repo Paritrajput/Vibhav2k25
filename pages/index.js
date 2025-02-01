@@ -10,11 +10,10 @@ import CC from "../Components/CC";
 import Gallery from "../Components/Gallery";
 import AboutUs from "../Components/AboutUs";
 import { useEffect, useState } from "react";
+import {motion} from "framer-motion";
 
 
 export default function Home() {
-    const [isMoveToAbout, setIsMoveToAbout] = useState(false);
-    const [lastScrollY, setLastScrollY] = useState(0);
 
 
   return (
@@ -33,29 +32,15 @@ export default function Home() {
       </Head>
       <main>
         <Layout>
-          <div className="bg-cover bg-center fixed z-0 h-screen w-full ">
-            <Image
-              src={backgroundImage}
-              alt="Background"
-              layout="fill"
-              objectFit="cover"
-              loading="lazy"
-              
-            />
-            <div className="absolute top-0 left-0 bg-gray-900 opacity-20 h-screen w-full z-10"></div>
-          </div>
-
-          <style jsx>{`
-  @keyframes waveContrast {
-    0% { filter: contrast(1); }  /* Low contrast */
-    50% { filter: contrast(1.2); } /* High contrast */
-    100% { filter: contrast(1); } /* Back to low contrast */
-  }
-
-  .wave-contrast {
-    animation: waveContrast 10s infinite ease-in-out; /* Adjust speed as needed */
-  }
-`}</style>
+        <div className="absolute h-screen w-screen top-0 overflow-hidden inset-0">
+        <motion.img src="assets/video/background.jpg" 
+        className="overflow-hidden w-full aspect-[4/3] sm:aspect-[16/9] md:aspect-[21/9] object-cover" 
+        alt="Background"
+        initial={{ filter: "brightness(50%)" }}
+        animate={{ filter: ["brightness(50%)", "brightness(120%)", "brightness(50%)"] }}
+        transition={{ duration: 6, repeat: Infinity, repeatType: "reverse" }}
+        />
+      </div>
           <div className="z-50 flex flex-col">
             <div className="bg-cover h-screen bg-center relative z-0 pt-12 pb-12  w-full  backdrop-blur-2xl wave-contrast ">
             <Image

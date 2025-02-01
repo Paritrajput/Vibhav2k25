@@ -295,7 +295,7 @@ export default function Navigation() {
 
   return isMobile ? (
     <div className={`navbar sticky  z-[100] inset-0 flex flex-col w-full   top-0 z-90 transition-colors duration-300
-      ease-in-out ${isVisible?"bg-black  ":"" } `}>
+      ease-in-out ${isVisible?" ":"" } `}>
      <ul className="flex items-center justify-between px-3 py-1 mx-auto w-full ">
        <li className="z-40 p-1">
          <img src="/Assets/Yellow.png" className="h-10  " />
@@ -327,7 +327,7 @@ export default function Navigation() {
      </ul>
 
      <div
-       className={` transition-all duration-700 delay-100 ease-in-out fixed top-14 bg-black w-[100%]   overflow-hidden ${
+       className={` transition-all duration-700 delay-100 ease-in-out fixed top-14 backdrop-blur-lg w-[100%]   overflow-hidden ${
          showNavbar ? " h-full" : " h-0"
        } `}
      >
@@ -534,7 +534,7 @@ export default function Navigation() {
     </div>
     <nav
       ref={navRef}
-      className={`fixed top-1 left-0 right-0 z-50 mx-auto  max-w-screen-lg gap-x-2 gap-y-2 text-gray-200 rounded-[var(--border-radius--menu-wrapper)]  bg-[rgba(26,27,30,0.4)] border flex-col-reverse flex  max-sm:p-[5px] border-solid border-[#333333] transition-custom transition-all ease-in-out duration-300 ${
+      className={`fixed top-1 left-0 right-0 z-50 mx-auto  w-[70%] gap-x-2 gap-y-2 text-gray-200 rounded-[var(--border-radius--menu-wrapper)]  bg-[rgba(26,27,30,0.4)] border flex-col-reverse flex  max-sm:p-[5px] border-solid border-[#333333] transition-custom transition-all ease-in-out duration-300 ${
         isVisible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
       }`}
     >
