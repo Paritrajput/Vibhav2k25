@@ -1,7 +1,7 @@
 "use client";
 import { useParams, useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import workData from "@/data/ourwork.json"; // Import work data
+import workData from "../../../../data/ourwork.json"; // Import work data
 import { useEffect, useState } from "react";
 
 export default function WorkDetails() {

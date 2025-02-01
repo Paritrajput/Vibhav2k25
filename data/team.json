@@ -160,6 +160,22 @@
   ],
   "Third Year": [
     {
+      "Name": "Sahil Attri",
+      "NickName": "Attri",
+      "Profile": "/Assets/TeamPhotos/Third/sahil.webp",
+      "Github": "https://github.com/sahilatri-91",
+      "LinkedIn": "https://www.linkedin.com/in/sahil-atri-279940263",
+      "Position": "CORE COORDINATOR"
+    },
+    {
+      "Name": "Vishesh Chadha",
+      "NickName": "Chadha",
+      "Profile": "/Assets/TeamPhotos/Third/VISHESH chaddha.webp",
+      "Github": "https://github.com/Vishesh0718",
+      "LinkedIn": "https://www.linkedin.com/in/vishesh-chadha-a9172525a",
+      "Position": "CORE COORDINATOR"
+    },
+    {
       "Name": "Abhishek Raj",
       "NickName": "Abhishek",
       "Profile": "/Assets/TeamPhotos/Third/abhishek.webp",
@@ -176,13 +192,36 @@
       "LinkedIn": "https://www.linkedin.com/in/aditya-verma-259762250",
       "Position": "COORDINATOR"
     },
-
+    {
+      "Name": "Akshat Mittal",
+      "NickName": "",
+      "Profile": "/Assets/TeamPhotos/Third/akshat.webp",
+      "Github": "",
+      "LinkedIn": "",
+      "Position": "COORDINATOR"
+    },
+    {
+      "Name": "Anika",
+      "NickName": "",
+      "Profile": "/Assets/TeamPhotos/Third/anika.webp",
+      "Github": "",
+      "LinkedIn": "",
+      "Position": "COORDINATOR"
+    },
     {
       "Name": "Anshuman Kandpal",
       "NickName": "Actor",
       "Profile": "/Assets/TeamPhotos/Third/anshuman.webp",
       "Github": "https://github.com/anshuman777K",
       "LinkedIn": "https://www.linkedin.com/in/anshuman-kandpal-753523257",
+      "Position": "COORDINATOR"
+    },
+    {
+      "Name": "Ashish Sadyal",
+      "NickName": "Sadyal",
+      "Profile": "/Assets/TeamPhotos/Third/Ashish Sadyal.webp",
+      "Github": "https://github.com/Ashish122121",
+      "LinkedIn": "https://www.linkedin.com/in/ashish-sadyal-81084a265",
       "Position": "COORDINATOR"
     },
     {
@@ -193,16 +232,6 @@
       "LinkedIn": "https://www.linkedin.com/in/ashish-sandal-82920424a",
       "Position": "COORDINATOR"
     },
-
-    {
-      "Name": "Ashish Sadyal",
-      "NickName": "Sadyal",
-      "Profile": "/Assets/TeamPhotos/Third/Ashish Sadyal.webp",
-      "Github": "https://github.com/Ashish122121",
-      "LinkedIn": "https://www.linkedin.com/in/ashish-sadyal-81084a265",
-      "Position": "COORDINATOR"
-    },
-
     {
       "Name": "Devika Kapoor",
       "NickName": "Devika",
@@ -238,7 +267,14 @@
       "LinkedIn": "https://www.linkedin.com/in/komal-kanwar-676a6924a",
       "Position": "COORDINATOR"
     },
-
+    {
+      "Name": "Kunal Singh",
+      "NickName": "",
+      "Profile": "/Assets/TeamPhotos/Third/kunal.webp",
+      "Github": "",
+      "LinkedIn": "",
+      "Position": "COORDINATOR"
+    },
     {
       "Name": "Putul Singh",
       "NickName": "Putul",
@@ -257,55 +293,13 @@
       "Position": "COORDINATOR"
     },
     {
-      "Name": "Sahil Attri",
-      "NickName": "Attri",
-      "Profile": "/Assets/TeamPhotos/Third/sahil.webp",
-      "Github": "https://github.com/sahilatri-91",
-      "LinkedIn": "https://www.linkedin.com/in/sahil-atri-279940263",
-      "Position": "CORE COORDINATOR"
-    },
-
-    {
       "Name": "Vaishnav A. Baravkar",
       "NickName": "Aashu",
       "Profile": "/Assets/TeamPhotos/Third/Vaishnav Baravkar.webp",
       "Github": "https://github.com/Vaishnav2004",
       "LinkedIn": "https://www.linkedin.com/in/vaishnav-baravkar-aa9337259",
       "Position": "COORDINATOR"
-    },
-    {
-      "Name": "Vishesh Chadha",
-      "NickName": "Chadha",
-      "Profile": "/Assets/TeamPhotos/Third/VISHESH chaddha.webp",
-      "Github": "https://github.com/Vishesh0718",
-      "LinkedIn": "https://www.linkedin.com/in/vishesh-chadha-a9172525a",
-      "Position": "CORE COORDINATOR"
-    },
-    {
-      "Name": "Akshat Mittal",
-      "NickName": "",
-      "Profile": "/Assets/TeamPhotos/Third/akshat.webp",
-      "Github": "",
-      "LinkedIn": "",
-      "Position": "COORDINATOR"
-    },
-        {
-      "Name": "Anika",
-      "NickName": "",
-      "Profile": "/Assets/TeamPhotos/Third/anika.webp",
-      "Github": "",
-      "LinkedIn": "",
-      "Position": "COORDINATOR"
-    },
-    {
-      "Name": "Kunal Singh",
-      "NickName": "",
-      "Profile": "/Assets/TeamPhotos/Third/kunal.webp",
-      "Github": "",
-      "LinkedIn": "",
-      "Position": "COORDINATOR"
     }
-
   ],
   "Second Year": [
     {

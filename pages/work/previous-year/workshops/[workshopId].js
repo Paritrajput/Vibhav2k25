@@ -1,6 +1,6 @@
 "use client";
 import { useParams, useRouter } from "next/navigation";
-import workData from "@/Data/Ourwork.json";
+import workData from "../../../../data/ourwork.json";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
