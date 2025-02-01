@@ -92,8 +92,8 @@ export default function Example() {
                 className="absolute md:animate-mover animate-mover2"
                 src="/Assets/Yellow.png"
                 alt=""
-                height={50}
-                width={50}
+                height={40}
+                width={40}
               />
             </Link>
           </div>

@@ -42,14 +42,14 @@ export default function Home() {
         />
       </div>
           <div className="z-50 flex flex-col">
-            <div className="bg-cover h-screen bg-center relative z-0 pt-12 pb-12  w-full backdrop-blur-sm">
+            <div className="bg-cover h-screen bg-center relative z-0 pt-12 pb-12  w-full  backdrop-blur-2xl wave-contrast ">
             <Image
               src={backgroundImage2}
               alt="Background"
               layout="fill"
               objectFit="cover"
               loading="lazy"
-              className="fixed"
+              className="fixed  "
               
             />
               <LandingPage />

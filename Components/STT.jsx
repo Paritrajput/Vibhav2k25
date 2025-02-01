@@ -33,7 +33,7 @@ export default function STT() {
 
   return (
 
-    <div className="fixed z-10 top-10 grid place-items-center w-full">
+    <div className="fixed z-10 top-32 grid place-items-center w-full">
 
       <button
         type="button"
@@ -42,7 +42,7 @@ export default function STT() {
         className={classNames(
           isVisible ? "opacity-100" : "opacity-0",
 
-          "bg-[#96969692] hover:bg-[#0e69c4] hover:text-[#f2eaeac9] animate-bounce inline-flex items-center rounded-full p-3 text-[#00000] shadow-sm  focus:outline-none "
+          "bg-[#96969692] hover:bg-gray-800 hover:text-[#f2eaeac9] animate-bounce inline-flex items-center rounded-full p-3 text-[#00000] shadow-sm  focus:outline-none "
         )}
       >
         <ChevronDoubleUpIcon className="h-6 w-6" aria-hidden="true" />
