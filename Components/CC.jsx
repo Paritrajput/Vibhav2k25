@@ -1,5 +1,5 @@
-import CC1 from "../public/Assets/TeamPhotos/CC/Krishna Gambhir.webp";
-import CC2 from "../public/Assets/TeamPhotos/CC/Parth Tailor.webp";
+import CC1 from "../public/Assets/TeamPhotos/CC/VISHESH chaddha.webp";
+import CC2 from "../public/Assets/TeamPhotos/CC/sahil.webp";
 import Image from "next/image";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
@@ -46,8 +46,8 @@ export default function CC() {
           </Fade>
 
           <div className="flex flex-col items-center justify-center gap-24 lg:flex-row">
-            <Card name="Krishna Gambhir" image={CC1} />
-            <Card name="Parth Tailor" image={CC2} />
+            <Card name="Vishesh Chadha" image={CC1} />
+            <Card name="Sahil Atri" image={CC2} />
           </div>
         </div>
       </div>
