@@ -22,7 +22,7 @@ function Card({ name, image }) {
           </div>
         </div>
         <div className="text-center">
-          <h2 className="text-white">{name}</h2>
+          <h2 className="text-white text-xl">{name}</h2>
         </div>
       </div>
     </Fade>
