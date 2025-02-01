@@ -33,13 +33,6 @@ export default function Home() {
       <main>
         <Layout>
         <div className="absolute h-screen w-screen top-0 overflow-hidden inset-0">
-        <motion.img src="assets/video/background.jpg" 
-        className="overflow-hidden w-full aspect-[4/3] sm:aspect-[16/9] md:aspect-[21/9] object-cover" 
-        alt="Background"
-        initial={{ filter: "brightness(50%)" }}
-        animate={{ filter: ["brightness(50%)", "brightness(120%)", "brightness(50%)"] }}
-        transition={{ duration: 6, repeat: Infinity, repeatType: "reverse" }}
-        />
       </div>
           <div className="z-50 flex flex-col">
             <div className="bg-cover h-screen bg-center relative z-0 pt-12 pb-12  w-full  backdrop-blur-2xl wave-contrast ">
@@ -49,8 +42,7 @@ export default function Home() {
               layout="fill"
               objectFit="cover"
               loading="lazy"
-              className="fixed  "
-              
+              className="fixed animate-brightnessPulse"
             />
               <LandingPage />
               </div>

@@ -29,14 +29,10 @@ module.exports = {
 					'50%': { backgroundPosition: '100% 50%' },
 					'100%': { backgroundPosition: '0% 50%' },
 				},
-      },
-      keyframes: {
         mover: {
           "0%": { transform: "translateY(-35px)" },
           "100%": { transform: "translateY(-5px)" },
         },
-      },
-      keyframes: {
         mover2: {
           "0%": { transform: "translateY(-30px)" },
           "100%": { transform: "translateY(-15px)" },
@@ -49,6 +45,10 @@ module.exports = {
 					"0%": { transform: "translateY(0)" },
 					"100%": { transform: "translateY(-100%)" }
 				},
+        brightnessPulse: {
+          "0%, 100%": { filter: "brightness(50%)" },
+          "50%": { filter: "brightness(120%)" },
+        },
       },
       animation: {
         mover: "mover 3s infinite alternate",
@@ -56,6 +56,7 @@ module.exports = {
         gradient: 'gradient 8s linear infinite',
         scrollX: "scrollX 15s linear infinite",
 				scrollY: "scrollY 15s linear infinite",
+        brightnessPulse: "brightnessPulse 4s infinite linear",
       },
       backgroundImage: (theme) => ({
         "al-pacino":
