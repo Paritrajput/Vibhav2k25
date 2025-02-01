@@ -1,5 +1,6 @@
 "use client";
 import { useParams, useRouter } from "next/navigation";
+import Layout from "@/Components/UI/Layout";
 import { motion } from "framer-motion";
 import workData from "../../../../data/ourwork.json"; // Import work data
 import { useEffect, useState } from "react";
@@ -24,6 +25,7 @@ console.log(Event)
   }, []);
 
   return (
+<Layout>
     <div className="container max-w-100% text-center mx-auto pt-7 md:pt-32 p-6 text-white relative">
       <motion.h1
         className="text-4xl text-center font-extrabold mb-8"
@@ -87,5 +89,6 @@ console.log(Event)
         ))}
       </div>
     </div>
+    </Layout>
   );
 }

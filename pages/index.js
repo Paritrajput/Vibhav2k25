@@ -33,7 +33,7 @@ export default function Home() {
       </Head>
       <main>
         <Layout>
-          <div className="bg-cover bg-center fixed z-0 h-screen w-full blur-sm">
+          <div className="bg-cover bg-center fixed z-0 h-screen w-full ">
             <Image
               src={backgroundImage}
               alt="Background"
@@ -44,15 +44,27 @@ export default function Home() {
             />
             <div className="absolute top-0 left-0 bg-gray-900 opacity-20 h-screen w-full z-10"></div>
           </div>
+
+          <style jsx>{`
+  @keyframes waveContrast {
+    0% { filter: contrast(1); }  /* Low contrast */
+    50% { filter: contrast(1.2); } /* High contrast */
+    100% { filter: contrast(1); } /* Back to low contrast */
+  }
+
+  .wave-contrast {
+    animation: waveContrast 10s infinite ease-in-out; /* Adjust speed as needed */
+  }
+`}</style>
           <div className="z-50 flex flex-col">
-            <div className="bg-cover h-screen bg-center relative z-0 pt-12 pb-12  w-full backdrop-blur-sm">
+            <div className="bg-cover h-screen bg-center relative z-0 pt-12 pb-12  w-full  backdrop-blur-2xl wave-contrast ">
             <Image
               src={backgroundImage2}
               alt="Background"
               layout="fill"
               objectFit="cover"
               loading="lazy"
-              className="fixed"
+              className="fixed  "
               
             />
               <LandingPage />

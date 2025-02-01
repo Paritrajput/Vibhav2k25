@@ -52,7 +52,7 @@ const CurrentTeam = () => {
 
   return (
     <Layout>
-      <div className="p-4 pt-32 relative text-white">
+      <div className="p-4 pt-7 sm:pt-32 relative text-white">
         <h1 className="sm:text-4xl text-3xl font-extrabold text-center mb-7">
           Current Team
         </h1>
