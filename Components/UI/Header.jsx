@@ -88,13 +88,13 @@ export default function Example() {
           <div className="flex justify-start md:w-0 md:flex-1">
             <Link href="/">
               <span className="sr-only">Team Vibhav</span>
-              <Image
+              {/* <Image
                 className="absolute md:animate-mover animate-mover2"
                 src="/Assets/Yellow.png"
                 alt=""
                 height={40}
                 width={40}
-              />
+              /> */}
             </Link>
           </div>
           <div className="-my-2  md:hidden">

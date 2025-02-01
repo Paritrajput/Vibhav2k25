@@ -1,5 +1,6 @@
 
 import { Fade } from "react-awesome-reveal";
+import { motion } from "framer-motion";
 import React from "react";
 import LogoWall from "./UI/Logowall";
 
@@ -21,7 +22,14 @@ export default function Gallery() {
       <div className="flex flex-col gap-28 overflow-hidden text-gray-200">
         <div className="mx-auto">
           <Fade>
-            <div className="flex flex-col place-items-center gap-4 text-center">
+            <motion.div className="flex flex-col place-items-center gap-4 text-center"
+            initial={{opacity:0.2 , y:-50}}
+            whileInView={{opacity:1,y:0}}
+          
+            transition={{duration:.5}}
+            
+            
+            >
               <h2 className="w-full max-w-6xl font-[poppins] text-3xl sm:text-4xl md:text-5xl lg:text-7xl bg-clip-text  text-gray-200">
                 REFLECTING ON THE JOURNEY
               </h2>
@@ -30,7 +38,7 @@ export default function Gallery() {
                 A glimpse into our team's past adventures, memories that shape
                 our present.
               </p>
-            </div>
+            </motion.div>
           </Fade>
         </div>
         <LogoWall

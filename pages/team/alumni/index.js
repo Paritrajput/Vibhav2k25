@@ -43,7 +43,7 @@ const Aluminus = () => {
 
   return (
     <Layout>
-      <div className="p-4 mt-12">
+      <div className="p-4 pt-32">
         <h1 className="sm:text-4xl text-3xl font-extrabold text-center mb-7">
           Alumni
         </h1>

@@ -63,6 +63,12 @@
   ],
   "IoT": [
     {
+      "name": "Ajivika",
+      "content": "AJIVIKA, or The Worker Booth, is a tech-driven initiative tackling unemployment in India’s unorganized sector by connecting daily wage laborers with local job opportunities. Its interactive booths and digital platform provide real-time job listings, ensuring transparency and fair wages while integrating MGNREGA cards for authenticity. By streamlining hiring and reducing middlemen exploitation, AJIVIKA empowers workers with accessible, secure employment, revolutionizing the labor market and improving livelihoods.",
+      "github": "",
+      "images": "/Assets/Projects/IOT/liFi.webp"
+    },
+    {
       "name": "Li-Fi Based Communication System",
       "content": "The project aims to design a system capable of transmitting data from one node to another by the use of Li-Fi technology. Anything in this universe that needs to change or we can say that developing is called technology. People are accepting the change created by the people. As the number of devices that access the internet is increasing, the limited bandwidth leads to a decrease in the speed of data transfer.",
       "github": "",
@@ -101,6 +107,13 @@
   ],
   "AR/VR": [
     {
+      "name": "VRET",
+      "content": "Virtual Reality Exposure Therapy (VRET) offers a safe, drug-free approach to treating acrophobia by immersing individuals in height-related VR scenarios. Using biosensors to monitor anxiety levels, the system dynamically adjusts exposure to ensure a controlled and gradual desensitization process. This personalized therapy enhances effectiveness, eliminating the risks of traditional drug-induced treatments. VRET provides a repeatable, stress-free alternative to real-world exposure, making phobia therapy more accessible and efficient.",
+      "github": "https://github.com/Team-Vibhav/VRET",
+      "images": "/Assets/Projects/AR/nithvr.webp"
+    },
+
+    {
       "name": "NITH VR",
       "content": "The NIT Hamirpur VR project is an one of its kind simulation of NITH campus with a simple user interface. The simulation incorporates the whole NITH campus.",
       "github": "https://github.com/Team-Vibhav/NithVR",
@@ -138,6 +151,13 @@
     }
   ],
   "EMBEDDED SYSTEMS": [
+  
+    {
+      "name": "SpidyBOT",
+      "content": "SpidyBOT, inspired by spiders, enhances search and rescue missions by navigating hazardous terrains with agility. Its spider-like legs enable it to crawl through debris, scale walls, and access tight spaces where traditional robots or humans struggle. Equipped with advanced sensors and thermal imaging, it detects survivors and assesses structural risks in real time. By improving speed, accuracy, and safety, SpidyBOT revolutionizes disaster response, minimizing human risk and maximizing efficiency.",
+      "github": "https://github.com/Team-Vibhav/spidy-bot",
+      "images": "/Assets/Projects/Embd/bionicarm.webp"
+    },
     {
       "name": "Bionic Arm",
       "content": "This project seeks to create a model that will allow people without arms to function normally by sensing the presence of their end muscles. The human hand is capable of a broad range of complex manoeuvres that allow us to interact with our surroundings and communicate with one anothr. One of the cutting-edge technologies that are assisting the next generation in living a more comfortable daily life is prosthetics. A powered bionic limb controlled by muscles, a prosthetic arm is powered by high-performance motors, sophisticated software, long-lasting batteries, and 3D printing technology.",

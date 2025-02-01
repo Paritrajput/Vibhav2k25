@@ -294,9 +294,9 @@ export default function Navigation() {
   }, [lastScrollY]);
 
   return isMobile ? (
-    <div className={`navbar sticky  z-[100] inset-0 flex flex-col w-full   top-0 z-90 transition-colors duration-300
+    <div className={`navbar fixed   z-[100] inset-0 flex flex-col w-full   top-0 z-90 transition-colors duration-300
       ease-in-out ${isVisible?" ":"" } `}>
-     <ul className="flex items-center justify-between px-3 py-1 mx-auto w-full ">
+     <ul className="flex items-center   bg-black/20 backdrop-blur-lg justify-between px-3 py-1 mx-auto w-full ">
        <li className="z-40 p-1">
          <img src="/Assets/Yellow.png" className="h-10  " />
        </li>

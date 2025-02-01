@@ -20,11 +20,13 @@ export default function Home() {
     return (
       <Layout>
         {" "}
+        <div className="h-[90Vh]">
         <div className="pt-60 mx-auto flex flex-col justify-center items-center h-[70vh] gap-5 w-full p-5 relative text-gray-500">
           <h1 className=" text-2xl sm:text-4xl font-bold ">
             Current Year Work
           </h1>
           <h1 className=" text-2xl sm:text-4xl font-bold ">Coming Soon ...</h1>
+        </div>
         </div>
       </Layout>
     );
