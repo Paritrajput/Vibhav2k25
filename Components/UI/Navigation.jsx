@@ -82,7 +82,7 @@ const ourteam = [
 ];
 
 export default function Navigation() {
-  const [isVisible, setIsVisible] = useState(true);
+
   const [isMobile, setIsMobile] = useState(false);
   const [ProjectVisible, setProjectVisible] = useState(false);
   const [WorkVisible, setWorkVisible] = useState(false);
@@ -93,6 +93,8 @@ export default function Navigation() {
   const navRef = useRef(null);
   const router = useRouter();
   const [activeRoute, setActiveRoute] = useState("");
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const scrollToBottom = () => {
     setTimeout(() => {
@@ -266,12 +268,37 @@ export default function Navigation() {
     setTeamVisible(false);
   };
 
+  const handleScroll = () => {
+    if (typeof window !== "undefined") {
+      if(window.scrollY>300){
+      if (window.scrollY > lastScrollY) {
+        // Scrolling down
+        setIsVisible(false);
+      } else {
+        // Scrolling up
+        setIsVisible(true);
+      }
+    }
+      setLastScrollY(window.scrollY);
+    }
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", handleScroll);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
+  }, [lastScrollY]);
+
   return isMobile ? (
     <div className={`navbar sticky  z-[100] inset-0 flex flex-col w-full   top-0 z-90 transition-colors duration-300
       ease-in-out ${isVisible?"bg-black  ":"" } `}>
      <ul className="flex items-center justify-between px-3 py-1 mx-auto w-full ">
        <li className="z-40">
-         <img src="/vibhav_logo.png" className="h-14 " />
+         <img src="/Assets/Yellow.png" className="h-14 " />
        </li>
        <li>
          <button
@@ -499,9 +526,17 @@ export default function Navigation() {
      </div>
    </div> //for mobile view
   ) : (
+    <div    className={`fixed top-1 left-0 right-0 z-50 flex justify-between p-3 backdrop:blur-sm backdrop:brightness-75 transition-custom transition-all ease-in-out duration-300 ${
+      isVisible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
+    }`}>
+    <div className=" z-50">
+      <img src="/Assets/Yellow.png" className="h-20"></img>
+    </div>
     <nav
       ref={navRef}
-      className=" fixed top-4 left-0 right-0 z-50 mx-auto max-w-screen-lg gap-x-2 gap-y-2  rounded-[var(--border-radius--menu-wrapper)] bg-[rgba(26,27,30,0.4)] border flex-col flex  p-[9px] max-sm:p-[5px] border-solid border-[#333333]  transition-custom "
+      className={`fixed top-1 left-0 right-0 z-50 mx-auto  max-w-screen-lg gap-x-2 gap-y-2 text-gray-200 rounded-[var(--border-radius--menu-wrapper)]  bg-[rgba(26,27,30,0.4)] border flex-col-reverse flex  max-sm:p-[5px] border-solid border-[#333333] transition-custom transition-all ease-in-out duration-300 ${
+        isVisible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
+      }`}
     >
       {ProjectVisible && (
         <div className="max-w-full gap-x-6 gap-y-6 bg-[#1a1b1e] flex-col flex overflow-hidden p-0 rounded-[23px] animateNav transition-custom">
@@ -595,6 +630,10 @@ export default function Navigation() {
           </p>
         </Link>
       </div>
-    </nav> //navigation for desktop view
+    </nav> 
+    <div className=" z-50">
+      <img src="/Assets/nimbusLogo.png" className="h-20"></img>
+    </div>
+    </div>
   );
 }

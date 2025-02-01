@@ -16,12 +16,12 @@ const Page = () => {
 
   return (
     <Layout>
-      <div className="mt-12 text-center">
+      <div className="pt-32 text-center">
         <div className="text-4xl text-white text-center font-extrabold mb-5">
           Projects
         </div>
         <span className="text-3xl text-white text-center mt-12 font-bold">
-          AI-ML
+          EMBEDDED SYSTEMS
         </span>
         <div className="container mx-auto  p-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
           {loading

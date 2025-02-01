@@ -17,10 +17,11 @@ export default function Home() {
       setIsLoading(false);
     }, 500);
   }, []);
+ 
 
   return (
     <Layout>
-      <div className="container relative text-center mx-auto mt-0 p-1 pt-32">
+      <div className="container relative text-center mx-auto mt-0 p-1 pt-32 text-white ">
         <h1 className="text-3xl font-extrabold">Our Work</h1>
 
         <div className="mb-3 md:p-5 xl:p-10">
@@ -33,6 +34,7 @@ export default function Home() {
                   <SkeletonWorkCard key={index} />
                 ))
               : events.map((item, index) => (
+                
                   <WorkCard
                     key={item.id}
                     index={index}
