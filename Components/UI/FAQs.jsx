@@ -32,9 +32,13 @@ export default function FAQs() {
               {faq.question}
               </div>
               {faq.isOpen ? (
-                <HiMinusCircle className="w-7 h-7" />
+                <div>
+                <HiMinusCircle className="w-7 h-7 mr-2" />
+              </div>
               ) : (
-                <HiPlusCircle className="w-7 h-7" />
+                <div>
+                  <HiPlusCircle className="w-7 h-7" />
+                </div>
               )}
             </button>
             <div

@@ -36,9 +36,6 @@ module.exports = {
           "100%": { transform: "translateY(-5px)" },
         },
       },
-      animation: {
-        mover: "mover 3s infinite alternate",
-      },
       keyframes: {
         mover2: {
           "0%": { transform: "translateY(-30px)" },
@@ -54,6 +51,7 @@ module.exports = {
 				},
       },
       animation: {
+        mover: "mover 3s infinite alternate",
         mover2: "mover2 3s infinite alternate",
         gradient: 'gradient 8s linear infinite',
         scrollX: "scrollX 15s linear infinite",
