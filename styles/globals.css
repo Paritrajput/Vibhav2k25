@@ -159,6 +159,18 @@ html {
   font-weight: 700; /* Bold weight */
   font-style: normal;
 }
+@font-face {
+  font-family: 'orbitron';
+  src: url('/assets/fonts/Orbitron-Medium.ttf') format('truetype');
+  font-weight:200 ; /* Bold weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'grace';
+  src: url('/assets/fonts/Grace.otf') format('opentype');
+  font-weight:400 ; /* Bold weight */
+  font-style: normal;
+}
 
 
 :root {

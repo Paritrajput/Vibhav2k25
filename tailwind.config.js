@@ -9,6 +9,8 @@ module.exports = {
     extend: {
       fontFamily:{
         batman: ["batman", "sans-serif"],
+        orbitron: ["orbitron","sans-serif"],
+        grace: ["grace","sans-serif"],
       },
       keyframes: {
         glitter: {

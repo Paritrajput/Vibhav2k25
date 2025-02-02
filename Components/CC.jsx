@@ -14,7 +14,7 @@ function Card({ name, image }) {
           <div className="relative w-full">
             <Image
               src={image}
-              className="w-full"
+              className="w-full rounded-lg "
               alt="Mobile wire frame"
               loading="lazy"
             />
@@ -22,7 +22,7 @@ function Card({ name, image }) {
           </div>
         </div>
         <div className="text-center">
-          <h2 className="text-white text-xl">{name}</h2>
+          <h2 className="text-white text-xl font-grace ">{name}</h2>
         </div>
       </div>
     </Fade>
@@ -45,11 +45,11 @@ export default function CC() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: .7 }}
             >
-              <h2 className="w-full max-w-6xl font-[poppins] text-4xl sm:text-4xl md:text-5xl lg:text-7xl bg-clip-text  text-gray-200">
+              <h2 className="w-full max-w-6xl font-batman text-4xl sm:text-4xl md:text-5xl lg:text-7xl bg-clip-text  text-gray-200">
                 CLUB COORDINATOR
               </h2>
 
-              <p className="w-full max-w-lg px-2 text-lg md:max-w-xl">
+              <p className="w-full max-w-lg px-2 text-lg md:max-w-xl font-grace">
                 Streamlining operations and maximizing efficiency.
               </p>
             </motion.div>
