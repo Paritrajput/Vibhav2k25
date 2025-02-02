@@ -17,7 +17,7 @@ const Page = () => {
 
   return (
     <Layout>
-      <div className="pt-32 text-center">
+      <div className="pt-32 text-center font-batman">
         <div className="text-4xl text-white text-center font-extrabold mb-5">
           Projects
         </div>

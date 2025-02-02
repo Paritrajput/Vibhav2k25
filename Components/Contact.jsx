@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { MdOutlineDownloadDone } from "react-icons/md";
+import { motion } from "framer-motion";
 export default function Contact({}) {
   const [state, setState] = useState({
     formSubmitted: false,
@@ -16,7 +17,7 @@ export default function Contact({}) {
       setState({ formSubmitted: true });
       setTimeout(() => {
         setState({ formSubmitted: false });
-      }, 4000); 
+      }, 4000);
     } catch (error) {
       console.error("Error submitting form:", error);
     }
@@ -39,8 +40,13 @@ export default function Contact({}) {
           </div>
         </div>
       ) : (
-        <div className="z-10 flex sm:mt-12">
-          <div className="max-w-screen-lg relative overflow-x-hidden  flex pt-8 mt-20 my-20 rounded-[20px] p-8 bg-gray-900 bg-opacity-30 shadow-[0_20px_40px_rgba(0,0,0,.4)] md:flex-row flex-col justify-around w-full lg:w-[66%] mx-auto ">
+        <div className="z-10 flex sm:mt-12 p-5 ">
+          <motion.div
+            className="max-w-screen-lg relative overflow-x-hidden  flex pt-8 mt-20 my-20 rounded-[20px]  bg-gray-900 bg-opacity-30 shadow-[0_20px_40px_rgba(0,0,0,.4)] md:flex-row flex-col justify-around w-full lg:w-[66%] mx-auto p-5 "
+            initial={{ opacity: 0, y:50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: .7 }}
+          >
             <div className=" lg:py-16  mb-12  rounded-xl sm:mt-4 lg:px-1 z-10 bg-opacity-50  max-w-screen-md basis-2/3 lg:w-12">
               <h2 className="mb-4 text-[#e9d59ae4]  text-4xl tracking-tight font-[poppins] font-extrabold text-center dark:text-[#e9d59ae4]">
                 Contact Us
@@ -109,7 +115,7 @@ export default function Contact({}) {
                 </button>
               </form>
             </div>
-          </div>
+          </motion.div>
         </div>
       )}
     </div>

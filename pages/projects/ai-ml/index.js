@@ -16,7 +16,10 @@ useEffect(()=>{
 
   return (
     <Layout>
-    <div className="pt-32  bg-black/50 text-center z-50">
+      <div className="">
+          <img src="/Assets/background3.png" className="fixed h-screen w-screen z-[-1]  blur-[3px]"/>
+    <div className="pt-32  bg-black/50 text-center z-50 font-batman">
+
       <div className="text-4xl text-white text-center font-extrabold mb-5 z-50">
         Projects
       </div>
@@ -28,6 +31,7 @@ useEffect(()=>{
           <ProjectCard key={index} project={project}  />
         ))}
       </div>
+    </div>
     </div>
     </Layout>
   );

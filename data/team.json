@@ -58,7 +58,6 @@
       "LinkedIn": "https://www.linkedin.com/in/abhishek-goyal-433971228",
       "Position": "MEMBER"
     },
-
     {
       "Name": "Abhishek Kumar",
       "NickName": "Gilehri",
@@ -67,7 +66,6 @@
       "LinkedIn": "https://www.linkedin.com/in/akumar17871/",
       "Position": "MEMBER"
     },
-
     {
       "Name": "Ankush Verma",
       "NickName": "Ankush",
@@ -92,7 +90,6 @@
       "LinkedIn": "https://www.linkedin.com/in/kartikay-a3b322232/",
       "Position": "MEMBER"
     },
-
     {
       "Name": "Kashish Thakur",
       "NickName": "Thakur",
@@ -162,7 +159,7 @@
     {
       "Name": "Sahil Attri",
       "NickName": "Attri",
-      "Profile": "/Assets/TeamPhotos/Third/sahil.webp",
+      "Profile": "/Assets/TeamPhotos/Third/Sahil.webp",
       "Github": "https://github.com/sahilatri-91",
       "LinkedIn": "https://www.linkedin.com/in/sahil-atri-279940263",
       "Position": "CORE COORDINATOR"
@@ -170,7 +167,7 @@
     {
       "Name": "Vishesh Chadha",
       "NickName": "Chadha",
-      "Profile": "/Assets/TeamPhotos/Third/VISHESH chaddha.webp",
+      "Profile": "/Assets/TeamPhotos/Third/VISHESH Chaddha.webp",
       "Github": "https://github.com/Vishesh0718",
       "LinkedIn": "https://www.linkedin.com/in/vishesh-chadha-a9172525a",
       "Position": "CORE COORDINATOR"
@@ -183,7 +180,6 @@
       "LinkedIn": "https://www.linkedin.com/in/abhishek-raj-a09181215",
       "Position": "COORDINATOR"
     },
-
     {
       "Name": "Aditya Verma",
       "NickName": "Aadi",
@@ -240,7 +236,6 @@
       "LinkedIn": "https://www.linkedin.com/in/devika-kapoor-aa9aa4257",
       "Position": "COORDINATOR"
     },
-
     {
       "Name": "Divya Soni",
       "NickName": "Divya",
@@ -249,7 +244,6 @@
       "LinkedIn": "https://www.linkedin.com/in/divya-soni-07507b257",
       "Position": "COORDINATOR"
     },
-
     {
       "Name": "Gaurav Raturi",
       "NickName": "Raturi",
@@ -258,7 +252,6 @@
       "LinkedIn": "https://www.linkedin.com/in/gaurav-raturi-34b9a3257",
       "Position": "COORDINATOR"
     },
-
     {
       "Name": "Komal Kanwar",
       "NickName": "Kanwar",
@@ -283,7 +276,6 @@
       "LinkedIn": "https://www.linkedin.com/in/putul-singh-80036b25a",
       "Position": "COORDINATOR"
     },
-
     {
       "Name": "Riya Singhal",
       "NickName": "Singhal",
@@ -311,7 +303,6 @@
       "Instagram": "https://www.instagram.com/ashay_0805/?hl=en",
       "Position": "EXECUTIVE MEMBER"
     },
-
     {
       "Name": "Ayush Kumar",
       "NickName": "Ayush",
@@ -321,14 +312,13 @@
       "Instagram": "https://www.instagram.com/https.ak.ayush/",
       "Position": "EXECUTIVE MEMBER"
     },
-   
     {
       "Name": "Bhavneet Singh",
       "NickName": "Bhavneet",
       "Profile": "/Assets/TeamPhotos/Second/Bhavneet Singh.webp",
       "Github": "https://github.com/bhavneet1512",
       "LinkedIn": "https://www.linkedin.com/in/bhavneet-singh-a8a24a280/",
-      "Instagram":"https://www.instagram.com/bhavneetsingh1512/",
+      "Instagram": "https://www.instagram.com/bhavneetsingh1512/",
       "Position": "EXECUTIVE MEMBER"
     },
     {
@@ -376,7 +366,6 @@
       "Instagram": "https://www.instagram.com/keshav_chandel_1597_?igsh=MWt1aTFlOTV3cDdxcg==",
       "Position": "EXECUTIVE MEMBER"
     },
-
     {
       "Name": "Lokesh Kumar",
       "NickName": "Lokesh",
@@ -386,7 +375,6 @@
       "Instagram": "https://www.instagram.com/lokeshjais007",
       "Position": "EXECUTIVE MEMBER"
     },
-
     {
       "Name": "Madhaw Kumar Bagadia",
       "NickName": "Pablo",
@@ -468,7 +456,6 @@
       "Instagram": "https://www.instagram.com/thakur_5248/",
       "Position": "EXECUTIVE MEMBER"
     },
-
     {
       "Name": "Shivi Singh",
       "NickName": "Shivi",
@@ -478,8 +465,6 @@
       "Instagram": "https://www.instagram.com/_shivi.7/",
       "Position": "EXECUTIVE MEMBER"
     },
- 
-
     {
       "Name": "Shresth Maheshwari",
       "NickName": "Singer",
@@ -551,7 +536,7 @@
       "Profile": "/Assets/TeamPhotos/First/Bhavya.webp",
       "Github": "https://github.com/bhavya-jpg",
       "LinkedIn": "https://www.linkedin.com/in/bhavya-aggarwal-6208bb2b4/",
-      "Instagram":"https://www.instagram.com/bhavya1209_?igsh=MXF6eTlmaG1qNDZjcg==",
+      "Instagram": "https://www.instagram.com/bhavya1209_?igsh=MXF6eTlmaG1qNDZjcg==",
       "Position": "VOLUNTEER"
     },
     {
@@ -690,59 +675,58 @@
       "Position": "VOLUNTEER"
     },
     {
-        "Name": "Prince Jain",
-        "NickName": "Prince",
-        "Profile": "/Assets/TeamPhotos/First/Prince jain.webp",
-        "Github": "https://github.com/Prince-Jain212",
-        "LinkedIn": "www.linkedin.com/in/prince-jain-427a32323",
-        "Instagram": "https://www.instagram.com/princejain6334?igsh=dmIyYXBjcjZyZnpn",
-        "Position": "VOLUNTEER"
-      },
-      {
-        "Name": "Raghav Lath",
-        "NickName": "Lath",
-        "Profile": "/Assets/TeamPhotos/First/Raghav Lath.webp",
-        "Github": "https://github.com/Raghav09445",
-        "LinkedIn": "https://www.linkedin.com/in/raghav-lath-080562325/",
-        "Instagram": "https://www.instagram.com/_.raghav._91?igsh=MXN5cHJwbDZmaDcweA==",
-        "Position": "VOLUNTEER"
-      },
-
-      {
-        "Name": "Samaksh Chaudhary",
-        "NickName": "Samaksh",
-        "Profile": "/Assets/TeamPhotos/First/Samaksh.webp",
-        "Github": "https://github.com/Darchen-lang",
-        "LinkedIn": "https://www.linkedin.com/in/samaksh-choudhary-656347335/",
-        "Instagram": "https://www.instagram.com/_s.a.m.a.k.s.h_/?utm_source=ig_web_button_share_sheet",
-        "Position": "VOLUNTEER"
-      },
-      {
-        "Name": "Sonia Saini",
-        "NickName": "Sonia",
-        "Profile": "/Assets/TeamPhotos/First/Sonia Saini.webp",
-        "Github": "https://github.com/SoniHubb-b",
-        "LinkedIn": "https://www.linkedin.com/in/sonia-saini-5a1570332/",
-        "Instagram": "https://www.instagram.com/soni.s_17?igsh=bnIyMnk4NTk4d2Mx",
-        "Position": "VOLUNTEER"
-      },
-      {
-        "Name": "Vineet Kumar",
-        "NickName": "Vineet",
-        "Profile": "/Assets/TeamPhotos/First/Vineet.webp",
-        "Github": "https://github.com/vineetkumar41",
-        "LinkedIn": "https://www.linkedin.com/in/vineet-mangalraw-461167325/",
-        "Instagram": "https://www.instagram.com/vineet__mangalrao/?utm_source=ig_web_button_share_sheet",
-        "Position": "VOLUNTEER"
-      },
+      "Name": "Prince Jain",
+      "NickName": "Prince",
+      "Profile": "/Assets/TeamPhotos/First/Prince jain.webp",
+      "Github": "https://github.com/Prince-Jain212",
+      "LinkedIn": "www.linkedin.com/in/prince-jain-427a32323",
+      "Instagram": "https://www.instagram.com/princejain6334?igsh=dmIyYXBjcjZyZnpn",
+      "Position": "VOLUNTEER"
+    },
     {
-        "Name": "Vyom Pant",
-        "NickName": "Pant",
-        "Profile": "/Assets/TeamPhotos/First/Vyom Pant.webp",
-        "Github": "https://github.com/vyom-1",
-        "LinkedIn": "https://www.linkedin.com/in/vyom-pant-441b8b327/",
-        "Instagram": "https://www.instagram.com/vyom.pant?igsh=MTB1eWJpZzE2Z2txMQ==",
-        "Position": "VOLUNTEER"
-      }
+      "Name": "Raghav Lath",
+      "NickName": "Lath",
+      "Profile": "/Assets/TeamPhotos/First/Raghav Lath.webp",
+      "Github": "https://github.com/Raghav09445",
+      "LinkedIn": "https://www.linkedin.com/in/raghav-lath-080562325/",
+      "Instagram": "https://www.instagram.com/_.raghav._91?igsh=MXN5cHJwbDZmaDcweA==",
+      "Position": "VOLUNTEER"
+    },
+    {
+      "Name": "Samaksh Chaudhary",
+      "NickName": "Samaksh",
+      "Profile": "/Assets/TeamPhotos/First/Samaksh.webp",
+      "Github": "https://github.com/Darchen-lang",
+      "LinkedIn": "https://www.linkedin.com/in/samaksh-choudhary-656347335/",
+      "Instagram": "https://www.instagram.com/_s.a.m.a.k.s.h_/?utm_source=ig_web_button_share_sheet",
+      "Position": "VOLUNTEER"
+    },
+    {
+      "Name": "Sonia Saini",
+      "NickName": "Sonia",
+      "Profile": "/Assets/TeamPhotos/First/Sonia Saini.webp",
+      "Github": "https://github.com/SoniHubb-b",
+      "LinkedIn": "https://www.linkedin.com/in/sonia-saini-5a1570332/",
+      "Instagram": "https://www.instagram.com/soni.s_17?igsh=bnIyMnk4NTk4d2Mx",
+      "Position": "VOLUNTEER"
+    },
+    {
+      "Name": "Vineet Kumar",
+      "NickName": "Vineet",
+      "Profile": "/Assets/TeamPhotos/First/Vineet.webp",
+      "Github": "https://github.com/vineetkumar41",
+      "LinkedIn": "https://www.linkedin.com/in/vineet-mangalraw-461167325/",
+      "Instagram": "https://www.instagram.com/vineet__mangalrao/?utm_source=ig_web_button_share_sheet",
+      "Position": "VOLUNTEER"
+    },
+    {
+      "Name": "Vyom Pant",
+      "NickName": "Pant",
+      "Profile": "/Assets/TeamPhotos/First/Vyom Pant.webp",
+      "Github": "https://github.com/vyom-1",
+      "LinkedIn": "https://www.linkedin.com/in/vyom-pant-441b8b327/",
+      "Instagram": "https://www.instagram.com/vyom.pant?igsh=MTB1eWJpZzE2Z2txMQ==",
+      "Position": "VOLUNTEER"
+    }
   ]
 }

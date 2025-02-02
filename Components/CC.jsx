@@ -1,8 +1,9 @@
-import CC1 from "../public/Assets/TeamPhotos/CC/VISHESH chaddha.webp";
-import CC2 from "../public/Assets/TeamPhotos/CC/sahil.webp";
+import CC1 from "../public/Assets/TeamPhotos/CC/VISHESH Chaddha.jpg";
+import CC2 from "../public/Assets/TeamPhotos/CC/Sahil.jpg";
 import Image from "next/image";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import { motion } from "framer-motion";
 
 function Card({ name, image }) {
   return (
@@ -32,24 +33,36 @@ export default function CC() {
   return (
     <div className="mx-auto">
       <div className="py-20">
-        <div className="flex flex-col gap-14 text-white">
+        <motion.div className="flex flex-col gap-14 text-white"
+         initial={{ opacity: 0.2}}
+         whileInView={{ opacity: 1 }}
+         transition={{ duration: 1 }}
+        >
           <Fade>
-            <div className="flex flex-col place-items-center gap-4 text-center">
+            <motion.div
+              className="flex flex-col place-items-center gap-4 text-center"
+              initial={{ opacity: 0.2, y: -50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: .7 }}
+            >
               <h2 className="w-full max-w-6xl font-[poppins] text-4xl sm:text-4xl md:text-5xl lg:text-7xl bg-clip-text  text-gray-200">
-                CORE COORDINATOR
+                CLUB COORDINATOR
               </h2>
 
               <p className="w-full max-w-lg px-2 text-lg md:max-w-xl">
                 Streamlining operations and maximizing efficiency.
               </p>
-            </div>
+            </motion.div>
           </Fade>
 
-          <div className="flex flex-col items-center justify-center gap-24 lg:flex-row">
+          <motion.div className="flex flex-col items-center justify-center gap-16  lg:flex-row"
+           initial={{ opacity: 0.2 }}
+           whileInView={{ opacity: 1 }}
+           transition={{ duration: .5 }}>
             <Card name="Vishesh Chadha" image={CC1} />
             <Card name="Sahil Atri" image={CC2} />
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     </div>
   );
