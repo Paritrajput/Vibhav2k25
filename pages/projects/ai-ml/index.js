@@ -26,7 +26,7 @@ useEffect(()=>{
       <span className="text-3xl text-white text-center mt-12 font-bold z-50">
         AI-ML
       </span>
-      <div className="container mx-auto pr-5 sm:p-7   gap-16 flex flex-wrap justify-evenly">
+      <div className="container mx-auto  p-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
         {loading? Array.from({ length: projectList.length || 6 }).map((projectSkelatol, index)=>(<SkeletonProjectCard key={index}/> )) :projectList.map((project, index) => (
           <ProjectCard key={index} project={project}  />
         ))}

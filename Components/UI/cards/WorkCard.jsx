@@ -1,5 +1,6 @@
 import { FaEye } from "react-icons/fa";
 import Link from "next/link"; 
+import { IoOpenOutline } from "react-icons/io5";
 
 export const SkeletonWorkCard = () => {
   return (
@@ -31,15 +32,15 @@ export const SkeletonWorkCard = () => {
 const WorkCard = ({ work ,type,year}) => {
   return (
     <Link href={`/work/${year}/${type}/${work.id}`}>
-      <div className="group relative bg-cover w-72 h-[23rem] md:w-80 md:h-[25rem] bg-center rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 cursor-pointer">
+      <div className="group relative bg-cover w-72 h-[23rem] md:w-80 md:h-[25rem] bg-center rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 cursor-pointer  backdrop:brightness-50">
         
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center  "
           style={{ backgroundImage: `url(${work.images[0]})` , backgroundSize:"cover"}}
         ></div>
 
         {/* Hover Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-70 transition-opacity duration-300"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-70 transition-opacity duration-300"></div>
 
         {/* Eye Icon */}
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -47,11 +48,11 @@ const WorkCard = ({ work ,type,year}) => {
             <FaEye className="text-white text-3xl" />
           </div>
         </div>
-
+        <IoOpenOutline className="h-20 w-8 text-white absolute bottom-12 right-2 hover:scale-105" />
         {/* Name Section with Blurry Background */}
         <div className="absolute bottom-0 left-0 w-full p-0 ">
           <div className="bg-black bg-opacity-50 backdrop-blur-sm rounded-md p-2 transition-all duration-300 group-hover:backdrop-blur-md group-hover:bg-opacity-60">
-            <h3 className="text-white text-lg font-semibold text-center">
+            <h3 className="text-white text-lg font-semibold text-center p-3">
               {work.name}
             </h3>
 

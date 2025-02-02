@@ -36,16 +36,21 @@ export default function Home() {
             <section
               id="home"
              
-              className="bg-cover h-screen bg-center relative z-0 pt-12 pb-12 w-full backdrop-blur-2xl wave-contrast"
+              className="bg-cover h-screen bg-center relative z-0  pb-12 w-full backdrop-blur-2xl wave-contrast"
             >
-              <Image
-                src={backgroundImage2}
-                alt="Background"
-                layout="fill"
-                objectFit="cover"
-                loading="lazy"
-                className="fixed animate-brightnessPulse"
-              />
+              <video
+               
+               src="/Assets/backgroundVd.mp4"
+               alt="Background"
+               autoPlay
+               loop
+               muted
+               playsInline
+               className="fixed z-[-1]"
+               style={{ objectFit: "cover", width: "100vw", height: "100vh" ,zIndex:"-1"}}
+             />
+             
+              
               <LandingPage />
             </section>
 

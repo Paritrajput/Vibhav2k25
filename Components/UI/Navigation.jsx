@@ -299,7 +299,9 @@ export default function Navigation() {
     >
       <ul className="flex items-center   bg-black/20 backdrop-blur-lg justify-between px-3 py-1 mx-auto w-full ">
         <li className="z-40 p-1">
+          <Link href="/">
           <img src="/Assets/Yellow.png" className="h-10  " />
+          </Link>
         </li>
         <li>
           <button
@@ -332,13 +334,13 @@ export default function Navigation() {
           showNavbar ? " h-full" : " h-0"
         } `}
       >
-        <div className="flex h-screen flex-col justify-between border-e text-gray-500">
+        <div className="flex h-screen flex-col justify-between border-e text-gray-100">
           <div className="px-4 py-6">
             <ul className="mt-6 space-y-1">
               <li>
                 <a
                   href="/"
-                  className="block rounded-lg px-4 py-2 text-sm font-medium"
+                  className="block rounded-lg px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-gray-900"
                 >
                   Home
                 </a>
@@ -369,7 +371,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/ai-ml"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
                       >
                         AI/ML
                       </a>
@@ -378,7 +380,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/ar-vr"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
                       >
                         AR/VR
                       </a>
@@ -387,7 +389,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/iot"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
                       >
                         IOT
                       </a>
@@ -396,7 +398,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/dsp"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
                       >
                         DSP
                       </a>
@@ -405,7 +407,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/embedded"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
                       >
                         EMBEDDED SYSTEMS
                       </a>
@@ -414,7 +416,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/quantum"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
                       >
                         QUANTAM COMPUTING
                       </a>
@@ -448,7 +450,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/team/current-team"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
                       >
                         Current
                       </a>
@@ -457,7 +459,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/team/alumni"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
                       >
                         Alumni
                       </a>
@@ -491,7 +493,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/work/current-year"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
                       >
                         Current Year
                       </a>
@@ -500,7 +502,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/work/previous-year"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
                       >
                         Previous Year
                       </a>
@@ -517,7 +519,7 @@ export default function Navigation() {
                   }, 800);
                 }}
               >
-                <span className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
+                <span className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-100 hover:bg-gray-100 hover:text-gray-700">
                   Contact
                 </span>
               </li>
@@ -525,16 +527,20 @@ export default function Navigation() {
           </div>
         </div>
       </div>
-    </div> //for mobile view
+    </div> 
   ) : (
     <div
       className={`fixed top-1 left-0 right-0 z-50 flex justify-between p-3 backdrop:blur-sm backdrop:brightness-75 transition-custom transition-all ease-in-out duration-300 font-batman  ${
         isVisible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
       }`}
     >
-      <div className=" z-50">
-        <img src="/Assets/Yellow.png" className=" h-14"></img>
+      <Link href="/">
+      <div className="pl-3 z-50">
+        
+        <img src="/Assets/Yellow.png" className=" h-12"></img>
+       
       </div>
+      </Link>
       <nav
         ref={navRef}
         className={`fixed top-1 left-0 right-0 z-50 mx-auto  w-[70%] gap-x-2 gap-y-2 text-gray-200 rounded-[var(--border-radius--menu-wrapper)]  bg-[rgba(26,27,30,0.4)] border  flex-col-reverse flex  max-sm:p-[5px] border-solid border-[#333333] transition-custom transition-all ease-in-out duration-300 max-w-[900px] ${
@@ -683,9 +689,14 @@ export default function Navigation() {
           </Link>
         </div>
       </nav>
-      <div className=" z-50">
-        <img src="/Assets/nimbusLogo.png" className="h-16"></img>
+      <Link href="https://festnimbus.nith.ac.in">
+      <div className="pl-3 z-50">
+        
+      <img src="/Assets/nimbusLogo.png" className="h-12"></img>
+       
       </div>
+      </Link>
+  
     </div>
   );
 }
