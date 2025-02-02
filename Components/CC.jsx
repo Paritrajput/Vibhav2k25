@@ -55,7 +55,7 @@ export default function CC() {
             </motion.div>
           </Fade>
 
-          <motion.div className="flex flex-col items-center justify-center  lg:flex-row"
+          <motion.div className="flex flex-col items-center justify-center gap-16  lg:flex-row"
            initial={{ opacity: 0.2 }}
            whileInView={{ opacity: 1 }}
            transition={{ duration: .5 }}>
