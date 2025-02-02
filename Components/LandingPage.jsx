@@ -9,7 +9,7 @@ export default function LandingPage() {
     <header className="relative mx-auto">
       <div className="grid min-h-[70vh] place-items-center text-white">
         <div className="flex w-full flex-col items-center gap-2 lg:max-w-[700px] relative content-center">
-          <h2 className="text-center z-50 text-4xl sm:text-8xl font-batman mt-40 text-[#98FF98]">
+          <h2 className="text-center z-50 text-4xl sm:text-8xl font-batman mt-40 text-[#34a134ee]">
             TEAM VIBHAV
           {/* <GradientText
             colors={["#00FF00"]}

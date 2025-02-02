@@ -20,8 +20,8 @@ export default function FAQs() {
   };
 
   return (
-    <div className="p-5">
-    <motion.div className="container text-gray-200 z-10 max-w-screen-lg mx-auto  my-20 rounded-[20px] p-8 bg-gray-900 bg-opacity-30 shadow-[0_20px_40px_rgba(0,0,0,.4)] "
+    <div className="p-1">
+    <motion.div className="container text-gray-200 z-10 max-w-screen-lg mx-auto my-20 rounded-[20px] p-8 bg-gray-900 bg-opacity-30 shadow-[0_20px_40px_rgba(0,0,0,.4)] "
     initial={{ opacity: 0, y:50 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: .7 }}
