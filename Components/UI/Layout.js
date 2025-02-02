@@ -4,7 +4,7 @@ import STT from "../STT";
 import Navigation from "./Navigation";
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className="bg-black bg-opacity-75">
       <Navigation />
       {children}
       <Footer />

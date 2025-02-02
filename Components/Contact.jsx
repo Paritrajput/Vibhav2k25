@@ -40,9 +40,9 @@ export default function Contact({}) {
           </div>
         </div>
       ) : (
-        <div className="z-10 flex sm:mt-12 p-5 ">
+        <div className="z-10 flex sm:mt-12 p-1 ">
           <motion.div
-            className="max-w-screen-lg relative overflow-x-hidden  flex pt-8 mt-20 my-20 rounded-[20px]  bg-gray-900 bg-opacity-30 shadow-[0_20px_40px_rgba(0,0,0,.4)] md:flex-row flex-col justify-around w-full lg:w-[66%] mx-auto p-5 "
+            className="max-w-screen-lg relative overflow-x-hidden  flex pt-8 mt-5 sm:mt-20 my-20 rounded-[20px]  bg-gray-900 bg-opacity-30 shadow-[0_20px_40px_rgba(0,0,0,.4)] md:flex-row flex-col justify-around w-full lg:w-[66%] mx-auto p-5 "
             initial={{ opacity: 0, y:50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: .7 }}
@@ -108,7 +108,7 @@ export default function Contact({}) {
                 <button
                   type="submit"
                   name="Submit Contact us Form"
-                  className="px-5 py-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg sm:w-fit hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="px-5 py-3 text-sm font-medium text-center text-white bg-green-900/20 rounded-lg sm:w-fit hover:bg-green-900/50 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-tranparent dark:hover:bg-green-900/30 dark:focus:ring-blue-800"
                   disabled={secondFormState.submitting}
                 >
                   Send message

@@ -24,7 +24,7 @@ export default function Loading() {
 
   const AnimatedText = ({ text }) => {
     const [fontStyles, setFontStyles] = useState([]);
-  
+
     useEffect(() => {
       const changeFonts = () => {
         setFontStyles(
@@ -33,15 +33,15 @@ export default function Loading() {
             .map(() => fonts[Math.floor(Math.random() * fonts.length)])
         );
       };
-  
+
       changeFonts();
       const interval = setInterval(changeFonts, 250);
-  
+
       return () => clearInterval(interval);
     }, [text]);
-  
+
     return (
-      <div className="flex space-x-1 text-4xl font-bold text-white">
+      <div className="flex space-x-1 sm:text-5xl text-4xl font-bold text-white">
         {text.split("").map((char, index) => (
           <span key={index} style={{ fontFamily: fontStyles[index] }}>
             {char}
@@ -50,12 +50,10 @@ export default function Loading() {
       </div>
     );
   };
-  
+
   return (
     <div className="flex justify-center items-center h-screen">
-      {loading && (
-        <AnimatedText text="Team Vibhav" />
-      )}
+      {loading && <AnimatedText text="Team Vibhav" />}
     </div>
   );
 }

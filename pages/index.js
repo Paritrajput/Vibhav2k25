@@ -31,12 +31,12 @@ export default function Home() {
         <Layout>
           {/* Background */}
           <div className="absolute h-screen w-screen top-0 overflow-hidden inset-0"></div>
-          <div className="z-50 flex flex-col">
+          <div className="z-50 flex flex-col max-sm:mr-[1.1rem] ">
             {/* Home Section */}
             <section
               id="home"
              
-              className="bg-cover h-screen bg-center relative z-0  pb-12 w-full backdrop-blur-2xl wave-contrast"
+              className="bg-cover h-screen bg-center relative z-0  pb-12 w-full backdrop-blur-2xl wave-contrast "
             >
               <video
                
@@ -46,14 +46,14 @@ export default function Home() {
                loop
                muted
                playsInline
-               className="fixed z-[-1]"
+               className="fixed z-[-1] landing-video"
                style={{ objectFit: "cover", width: "100vw", height: "100vh" ,zIndex:"-1"}}
              />
              
               
               <LandingPage />
             </section>
-
+<section className="">
        
               <AboutUs />
   
@@ -63,6 +63,7 @@ export default function Home() {
             <CC />
             <FAQs />
             <Contact />
+            </section>
           </div>
         </Layout>
       </main>
