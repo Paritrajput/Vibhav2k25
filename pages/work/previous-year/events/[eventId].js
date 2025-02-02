@@ -26,7 +26,7 @@ console.log(Event)
 
   return (
 <Layout>
-    <div className="container max-w-100% text-center mx-auto pt-7 md:pt-32 p-6 text-white relative">
+    <div className="container max-w-100% text-center mx-auto pt-24 md:pt-32 p-6 text-white relative">
       <motion.h1
         className="text-4xl text-center font-extrabold mb-8"
         initial={{ opacity: 0, y: -50 }}

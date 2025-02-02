@@ -21,7 +21,7 @@ export default function Home() {
       <Layout>
         {" "}
         <div className="h-[90Vh]  font-batman">
-        <div className="pt-60 mx-auto flex flex-col justify-center items-center h-[70vh] gap-5 w-full p-5 relative text-green-900">
+        <div className="pt-60 mx-auto flex flex-col justify-center items-center h-[70vh] gap-5 w-full p-5 relative text-gray-500">
           <h1 className=" text-2xl sm:text-4xl font-bold ">
             Current Year Work
           </h1>
