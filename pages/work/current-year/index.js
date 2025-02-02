@@ -20,11 +20,13 @@ export default function Home() {
     return (
       <Layout>
         {" "}
-        <div className="pt-60 mx-auto flex flex-col justify-center items-center h-[70vh] gap-5 w-full p-5 relative text-gray-500">
+        <div className="h-[90Vh]  font-batman">
+        <div className="pt-60 mx-auto flex flex-col justify-center items-center h-[70vh] gap-5 w-full p-5 relative text-green-900">
           <h1 className=" text-2xl sm:text-4xl font-bold ">
             Current Year Work
           </h1>
           <h1 className=" text-2xl sm:text-4xl font-bold ">Coming Soon ...</h1>
+        </div>
         </div>
       </Layout>
     );
@@ -32,9 +34,9 @@ export default function Home() {
 
   return (
     <Layout>
-      <div className="container text-center mx-auto mt-0 p-1 ">
-        <div className="z-50 relative  text-white">
-          <h1 className="text-3xl font-extraboldnz-50">Our Work</h1>
+      <div className="container text-center mx-auto mt-0 p-1 font-batman ">
+        <div className="z-50 relative  text-white font-batman">
+          <h1 className="text-3xl font-extraboldnz-50 font-batman">Our Work</h1>
           {events.length > 0 && (
             <div className="mb-3 md:p-5 xl:p-10">
               <div className="text-3xl font-bold pb-5 mb-5">

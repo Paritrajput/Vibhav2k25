@@ -269,7 +269,7 @@ export default function PixelCard({
           ref={canvasRef}
         />
         <div className="flex flex-col gap-3 p-6">
-          <h1 className="text-2xl sm:text-4xl text-center">About Us</h1>
+          <h1 className="text-2xl sm:text-4xl text-center font-batman">About Us</h1>
           <p className="text-base sm:text-lg text-center leading-6">
           Team Vibhav is the official departmental team of the Electronics & Communication Engineering Department at NIT Hamirpur, dedicated to contributing to Nimbus, the institute’s annual technical festival. As a team, we cultivate a spirit of innovation, teamwork, and technical excellence, fostering an environment where students can develop and showcase their skills in electronics, robotics, embedded systems, and cutting-edge technologies.
 

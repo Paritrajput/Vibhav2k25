@@ -52,19 +52,21 @@ const CurrentTeam = () => {
 
   return (
     <Layout>
-      <div className="p-4 pt-7 sm:pt-32 relative text-white">
-        <h1 className="sm:text-4xl text-3xl font-extrabold text-center mb-7">
+      <div>
+      {/* <img src="/Assets/background4.png" className="fixed h-screen w-screen z-[-1]  blur-[3px]"/> */}
+      <div className="p-4 mx-0 pt-20 sm:pt-32 relative text-white">
+        <h1 className="sm:text-4xl text-2xl font-extrabold text-center mb-7 font-batman">
           Current Team
         </h1>
         <div className="flex flex-col items-center">
-          <div className="w-[95vw] flex items-center justify-center mb-12 absolute">
-            <div className="flex justify-evenly backdrop-blur max-sm:hidden rounded-[90px] px-7 transition-all duration-500 ease-in-out  py-6 w-fit gap-12 items-center backdrop-brightness-75 opacity-90 bg-zinc-900 border-1 border-gray-200 relative">
+          <div className="w-[95vw] flex items-center justify-center mb-12 absolute mr-4">
+            <div className="flex justify-evenly backdrop-blur max-md:hidden rounded-[90px] px-7 transition-all duration-500 ease-in-out  py-6 w-fit gap-12 items-center backdrop-brightness-75 opacity-90 bg-zinc-900 border-1 border-gray-200 relative ">
               {Object.keys(Team).map((year) => (
                 <button
                   key={year}
                   className={`px-4 py-2 rounded-3xl text-white ${
                     selectedYear === year ? "bg-black" : "bg-gray-500"
-                  } transition-all duration-500 ease-in-out hover:bg-black hover:scale-110 z-10`}
+                  } transition-all duration-500 ease-in-out hover:bg-black hover:scale-110 z-10 font-batman`}
                   onClick={() => handleYearChange(year)}
                 >
                   {year}
@@ -73,7 +75,7 @@ const CurrentTeam = () => {
             </div>
 
             <div
-              className={`sm:hidden z-10 w-[100%] flex flex-col backdrop-blur-md rounded-[10px] px-7 transition-all duration-500 ease-in-out py-6 gap-12 items-center backdrop-brightness-75 h-fit opacity-100 relative`}
+              className={`md:hidden z-10 w-[100%] flex flex-col backdrop-blur-md rounded-[10px] px-7 transition-all duration-500 ease-in-out py-3 gap-12 items-center backdrop-brightness-75 h-fit opacity-100 relative`}
             >
               <div
                 className={`relative inline-block text-left w-full transition-all duration-500 ease-in-out ${
@@ -84,7 +86,7 @@ const CurrentTeam = () => {
                   onClick={() => setIsOpen(!isOpen)}
                   className="flex items-center justify-between px-4 py-2 bg-black text-gray-200 font-medium rounded-3xl shadow-lg focus:outline-none w-full transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
                 >
-                  <span className="flex-1 text-center">
+                  <span className="flex-1 text-center font-batman text-sm">
                     {yearLabels[selectedYear]}
                   </span>
                   <svg
@@ -107,10 +109,10 @@ const CurrentTeam = () => {
 
                 {isOpen && (
                   <div
-                    className={`left-0 z-10 mt-2 w-full rounded-md transition-all duration-500 ease-in-out transform ${
+                    className={`left-0 z-10 mt-2 w-full rounded-md transition-all duration-500 ease-in-out transform  scale-100 opacity-100 h-96${
                       isOpen
                         ? "scale-100 opacity-100 max-h-96"
-                        : "max-h-0 scale-95 opacity-0"
+                        : "max-h-96 scale-95 opacity-100"
                     }`}
                   >
                     <div className="h-[1px] bg-gray-300 w-full"></div>
@@ -118,7 +120,7 @@ const CurrentTeam = () => {
                       {Object.keys(Team).map((year) => (
                         <button
                           key={year}
-                          className={`px-4 py-2 text-gray-200 font-medium bg-black rounded-3xl transition-all duration-300 ease-in-out w-full text-center ${
+                          className={`px-4 py-2 text-gray-200 font-medium bg-black rounded-3xl transition-all duration-300 ease-in-out w-full text-center font-batman text-sm ${
                             selectedYear === year
                               ? "bg-gray-800 text-white"
                               : "hover:bg-gray-800 hover:text-white"
@@ -138,8 +140,8 @@ const CurrentTeam = () => {
             </div>
           </div>
 
-          <div className="mt-28">
-            <div className="text-xl sm:text-4xl font-bold flex justify-center mb-4">
+          <div className="mt-20 sm:mt-28">
+            <div className="text-xl sm:text-4xl font-bold flex justify-center mb-4 font-batman text-center p-1">
               <h1>{yearLabels[selectedYear]}</h1>
             </div>
 
@@ -172,6 +174,7 @@ const CurrentTeam = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </Layout>
   );

@@ -23,7 +23,7 @@ export function Popup({ title, description, image, onClose, github }) {
           >
             {title}
           </motion.h2>
-          <motion.div className="text-gray-200 text-lg w-[95%] sm:w-[88%] max-h-[490px] text-justify  overflow-y-auto">
+          <motion.div className="text-gray-200 text-lg w-[95%] sm:w-[88%] max-h-[490px] text-justify  overflow-y-auto font-sans">
             <motion.p
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}

@@ -16,14 +16,14 @@ const Page = () => {
 
   return (
     <Layout>
-      <div className="pt-32 text-center">
+      <div className="pt-32 text-center font-batman">
         <div className="text-4xl text-white text-center font-extrabold mb-5">
           Projects
         </div>
         <span className="text-3xl text-white text-center mt-12 font-bold">
           EMBEDDED SYSTEMS
         </span>
-        <div className="container mx-auto  p-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+        <div className="container mx-auto pr-5 sm:p-7   gap-16 flex flex-wrap justify-evenly">
           {loading
             ? Array.from({ length: projectList.length || 6 }).map(
                 (projectSkelatol, index) => <SkeletonProjectCard key={index} />

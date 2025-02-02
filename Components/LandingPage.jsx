@@ -8,13 +8,13 @@ export default function LandingPage() {
   return (
     <header className="relative mx-auto">
       <div className="grid min-h-[70vh] place-items-center text-white">
-        <div className="flex w-full flex-col place-items-center gap-2 sm:max-w-[500px] lg:max-w-[700px]">
-          <h2 className="w-full text-center ">
+        <div className="flex w-full flex-col items-center justify-center gap-2 lg:max-w-[700px]">
+          <h2 className="text-center">
           <GradientText
             colors={["#00FF00", "#8A2BE2" ,"#00FF7F","#00FFFF"]}
             animationSpeed={3}
             showBorder={false}
-            className=" w-full custom-class text-4xl font-batman sm:text-8xl mt-40 sm:ml-16 mx-auto"
+            className=" w-full custom-class text-4xl font-batman sm:text-8xl mt-40 mx-auto"
           >
             TEAM VIBHAV
           </GradientText>

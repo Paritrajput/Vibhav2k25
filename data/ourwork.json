@@ -68,7 +68,7 @@
         "content": "This workshop offers practical training and insights into utilizing remote servers to store, manage, and process data and applications over the internet.",
         "images": [
           "/Assets/Workshop/cloudcomputing.webp",
-          "/Assets/Workshop/aavardhan.webp"
+          "/Assets/Workshop/cloudcomputing2.webp"
         ],
         "round1": "Embark on a transformative journey into the world of cloud computing with our upcoming workshop. Whether you're a beginner eager to explore the fundamentals or a seasoned professional looking to enhance your expertise, this workshop is tailored to equip you with the essential knowledge and hands-on experience needed to navigate the ever-evolving cloud landscape. Cloud computing is revolutionizing industries, and mastering it is crucial for staying ahead in the tech-driven world.",
         "round2": "In addition to theoretical knowledge, the workshop will feature hands-on exercises and interactive sessions designed to demystify the workings of leading cloud service providers such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Participants will have the opportunity to deploy applications, configure cloud environments, and explore various cloud-based solutions, gaining practical experience that is highly sought after in the industry.",
@@ -81,7 +81,7 @@
         "content": "This workshop provides hands-on learning and expertise in developing integrated circuits that incorporate all necessary components of electronic system onto a single chip.",
         "images": [
           "/Assets/Workshop/systemonchips.webp",
-          "/Assets/Workshop/systemonchips.webp"
+          "/Assets/Workshop/systemonchips2.webp"
         ],
         "round1": "Ready to dive deep into the revolutionary world of System on Chip (SoC) technology? Join us for an electrifying workshop where we explore the architecture, functionality, and real-world applications of SoC. This cutting-edge technology integrates multiple components, such as processors, memory, input/output interfaces, and more, onto a single chip, making it a game-changer in modern electronics. From smartphones and IoT devices to automotive systems and AI accelerators, SoC is at the heart of today’s most advanced innovations. ",
         "round2": "Whether you're an aspiring engineer, a seasoned developer, or a tech enthusiast hungry for knowledge, this workshop promises to fuel your curiosity and enhance your expertise. We will break down the fundamentals of SoC architecture, including processor cores, communication buses, power management, and hardware-software co-design. Understanding these concepts is essential for anyone looking to delve into embedded systems, VLSI design, or chip-level programming.",
