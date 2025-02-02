@@ -35,7 +35,7 @@ export default function Home() {
         <div className="absolute h-screen w-screen top-0 overflow-hidden inset-0">
       </div>
           <div className="z-50 flex flex-col">
-            <div className="bg-cover h-screen bg-center relative z-0 pt-12 pb-12  w-full  backdrop-blur-2xl wave-contrast ">
+            <div className="bg-cover h-screen bg-center relative z-0 pt-12 pb-12  w-full  backdrop-blur-2xl wave-contrast scroll-smooth snap-y snap-mandatory ">
             <Image
               src={backgroundImage2}
               alt="Background"
