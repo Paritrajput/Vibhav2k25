@@ -211,6 +211,55 @@ html {
 }
 
 
+@media (min-width: 768px) {  
+  /* WebKit Browsers (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+      width: 12px; /* Wider scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: #1aff00;
+      border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+  }
+
+  /* Firefox */
+  * {
+      scrollbar-width: thin;
+      scrollbar-color: #00470dac #f8f8f803;
+  }
+}
+
+/* Smaller screens (Mobile Devices) */
+@media (max-width: 767px) {
+  /* Hide scrollbar for a cleaner look */
+  ::-webkit-scrollbar {
+      width: 5px; /* Thin scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+      background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: #ccc; /* Lighter color */
+      border-radius: 10px;
+  }
+
+  /* Firefox */
+  * {
+      scrollbar-width: none; /* Hides scrollbar */
+  }
+}
+
 :root {
   --border-radius--menu-wrapper: 100px;
   --border-radius--menu-link: 92px;
@@ -225,7 +274,7 @@ html {
 }
 .menuLink.active {
   /* background-color: #414141;  */
-  color: rgb(174, 255, 172);
+  color: #34a134ee;
 }
 
 .transition-custom {

@@ -254,7 +254,7 @@ export default function PixelCard({
   }, [finalGap, finalSpeed, finalColors, finalNoFocus]);
 
   return (
-    <div className="w-screen relative mt-11 z-10 max-sm:pr-[1.1rem]">
+    <div className="w-screen relative mt-11 z-10 ">
       <div
         ref={containerRef}
         className={`relative w-[90%] sm:w-[60%] overflow-hidden grid place-items-center border border-[#27272a] rounded-[25px]  isolate transition-colors duration-200 mx-auto ease-[cubic-bezier(0.5,1,0.89,1)] mt-14 select-none ${className}`}
