@@ -298,11 +298,21 @@ export default function Navigation() {
       ease-in-out ${isVisible ? " " : ""} `}
     >
       <ul className="flex items-center   bg-black/20 backdrop-blur-lg justify-between px-3 py-1 mx-auto w-full ">
-        <li className="z-40 p-1">
-          <Link href="/">
+        <li className="z-40 p-1 flex items-center gap-2">
+          <Link href="/" className="block">
           <img src="/Assets/Yellow.png" className="h-10  " />
           </Link>
+          <div className="h-10 w-[1px] bg-white"></div>
+
+          <Link href="https://festnimbus.nith.ac.in">
+      <div className="pl-3 z-50">
+        
+      <img src="/Assets/nimbusLogo.png" className="h-10"></img>
+       
+      </div>
+      </Link>
         </li>
+
         <li>
           <button
             onClick={toggleNavbar}
@@ -690,7 +700,7 @@ export default function Navigation() {
         </div>
       </nav>
       <Link href="https://festnimbus.nith.ac.in">
-      <div className="pl-3 z-50">
+      <div className="pr-5 z-50">
         
       <img src="/Assets/nimbusLogo.png" className="h-12"></img>
        

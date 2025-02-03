@@ -159,7 +159,7 @@
     {
       "Name": "Sahil Attri",
       "NickName": "Attri",
-      "Profile": "/Assets/TeamPhotos/Third/Sahil.webp",
+      "Profile": "/Assets/TeamPhotos/CC/Sahil.jpg",
       "Github": "https://github.com/sahilatri-91",
       "LinkedIn": "https://www.linkedin.com/in/sahil-atri-279940263",
       "Position": "CORE COORDINATOR"
@@ -167,7 +167,7 @@
     {
       "Name": "Vishesh Chadha",
       "NickName": "Chadha",
-      "Profile": "/Assets/TeamPhotos/Third/VISHESH Chaddha.webp",
+      "Profile": "/Assets/TeamPhotos/CC/VISHESH Chaddha.jpg",
       "Github": "https://github.com/Vishesh0718",
       "LinkedIn": "https://www.linkedin.com/in/vishesh-chadha-a9172525a",
       "Position": "CORE COORDINATOR"
@@ -325,9 +325,9 @@
       "Name": "Chetan Nehra",
       "NickName": "Chetan",
       "Profile": "/Assets/TeamPhotos/Second/Chetan Nehra.webp",
-      "Github": "",
-      "LinkedIn": "",
-      "Instagram": "",
+      "Github": "https://github.com/chetanprakashnehra",
+      "LinkedIn": "https://www.linkedin.com/in/chetan-nehra-3a00662b3/",
+      "Instagram": "https://www.instagram.com/c.nehra11/",
       "Position": "EXECUTIVE MEMBER"
     },
     {
