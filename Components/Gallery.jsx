@@ -12,8 +12,11 @@ export default function Gallery() {
     { imgUrl: '/Assets/Homepage/t2.webp', altText: "React Bits Logo" },
     { imgUrl: '/Assets/Homepage/t3.webp', altText: "React Bits Logo" },
     { imgUrl: '/Assets/Homepage/t4.webp', altText: "React Bits Logo" },
-    { imgUrl: '/Assets/Homepage/t5.webp', altText: "React Bits Logo" },
+    // { imgUrl: '/Assets/Homepage/t5.webp', altText: "React Bits Logo" },
     { imgUrl: '/Assets/Homepage/t6.webp', altText: "React Bits Logo" },
+    // { imgUrl: '/Assets/Homepage/t7.webp', altText: "React Bits Logo" },
+    { imgUrl: '/Assets/Homepage/t8.webp', altText: "React Bits Logo" },
+    { imgUrl: '/Assets/Homepage/t10.webp', altText: "React Bits Logo" },
   ];
 
 

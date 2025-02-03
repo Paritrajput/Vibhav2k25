@@ -108,7 +108,7 @@ export default function Contact({}) {
                 <button 
                   type="submit"
                   name="Submit Contact us Form"
-                  className="px-5 py-3  text-sm font-batman font-medium text-center text-white bg-[#00FF00] rounded-lg sm:w-fit hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="px-5 py-3  text-sm font-batman font-medium text-center text-white  rounded-lg sm:w-fit hover:bg-[#00FF00]focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#184918] dark:hover:bg-[#34a134ee] dark:focus:ring-[#00FF00] bg-[#34a134ee]"
                   disabled={secondFormState.submitting}
                 >
                   Send message

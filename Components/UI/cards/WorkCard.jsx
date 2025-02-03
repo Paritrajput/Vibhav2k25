@@ -39,22 +39,23 @@ const WorkCard = ({ work ,type,year}) => {
           style={{ backgroundImage: `url(${work.images[0]})` , backgroundSize:"cover"}}
         ></div>
 
-        {/* Hover Overlay */}
+      
         <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-70 transition-opacity duration-300"></div>
 
-        {/* Eye Icon */}
+  
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <div className="bg-black p-2 rounded-2xl">
             <FaEye className="text-white text-3xl" />
           </div>
         </div>
-        <IoOpenOutline className="h-20 w-8 text-white absolute bottom-12 right-2 hover:scale-105" />
-        {/* Name Section with Blurry Background */}
+    
+   
         <div className="absolute bottom-0 left-0 w-full p-0 ">
-          <div className="bg-black bg-opacity-50 backdrop-blur-sm rounded-md p-2 transition-all duration-300 group-hover:backdrop-blur-md group-hover:bg-opacity-60">
+          <div className="bg-black bg-opacity-50 backdrop-blur-sm rounded-md p-2 transition-all duration-300 group-hover:backdrop-blur-md group-hover:bg-opacity-60 flex justify-center items-center">
             <h3 className="text-white text-lg font-semibold text-center p-3">
               {work.name}
             </h3>
+            <IoOpenOutline className="h-[1.3rem] w-[1.3rem] z-50  text-white  bottom-[1rem] right-[5.3rem] hover:scale-105" />
 
             {/* <h4 className="text-center">{work.content}</h4> */}
           </div>

@@ -31,7 +31,7 @@ export default function Home() {
         <Layout>
           {/* Background */}
           <div className="absolute h-screen w-screen top-0 overflow-hidden inset-0"></div>
-          <div className="z-50 flex flex-col max-sm:mr-[1.1rem] ">
+          <div className="z-50 flex flex-col  ">
             {/* Home Section */}
             <section
               id="home"
