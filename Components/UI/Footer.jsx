@@ -5,7 +5,7 @@ export default function Footer() {
     <div>
       <footer className="p-4 relative bottom-0 z-10  pb-4 mx-auto text-white  footer footer-center bg-base-300 text-base-content">
         <div>
-          <p className="flex items-center justify-center text-xl">
+          <p className="flex items-center justify-center text-xl font-grace">
             Made with ❤️ by
             <Link
               href="/team/current-team"

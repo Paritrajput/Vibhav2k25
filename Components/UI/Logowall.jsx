@@ -4,7 +4,7 @@ function LogoWall({
   items = [],
   direction = "horizontal",
   pauseOnHover = false,
-  size = "8rem",
+  size = "9rem",
   duration = "15s",
   textColor = "#ffffff",
   bgColor = "#060606",
@@ -83,8 +83,8 @@ function LogoWall({
                 "rounded-md",
                 "object-cover",
                 "aspect-video",
-                `sm:w-[400px]`,
-                `w-[200px]`,
+                `sm:w-[450px]`,
+                `w-[300px]`,
                 direction === "vertical" &&
                 // "aspect-square w-[calc(var(--size)/1.2)]",
                 "m-6"
@@ -119,8 +119,8 @@ function LogoWall({
                 "rounded-md",
                 "object-cover",
                 "aspect-video",
-                "w-[120px]",
-                `sm:w-[400px]`,
+                "w-[300px]",
+                `sm:w-[450px]`,
                 direction === "vertical"
                 // "aspect-square w-[calc(var(--size)/1.2)] "
               ]

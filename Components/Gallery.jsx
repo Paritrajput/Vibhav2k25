@@ -30,11 +30,11 @@ export default function Gallery() {
             
             
             >
-              <h2 className="w-full max-w-6xl font-[poppins] text-3xl sm:text-4xl md:text-5xl lg:text-7xl bg-clip-text  text-gray-200">
+              <h2 className="w-full max-w-6xl font-batman text-3xl sm:text-4xl md:text-5xl lg:text-7xl bg-clip-text  text-gray-200">
                 REFLECTING ON THE JOURNEY
               </h2>
 
-              <p className="w-full max-w-lg px-2 text-lg md:max-w-xl ">
+              <p className="w-full font-grace max-w-lg px-2 text-lg md:max-w-xl">
                 A glimpse into our team's past adventures, memories that shape
                 our present.
               </p>

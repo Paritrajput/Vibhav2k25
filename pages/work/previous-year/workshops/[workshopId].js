@@ -25,7 +25,7 @@ export default function WorkDetails() {
     <Layout>
     <div className="container max-w-100% text-center mx-auto pt-24 md:pt-32 p-6 text-white relative">
       <motion.h1
-        className="text-4xl text-center font-extrabold mb-8"
+        className="text-4xl text-center font-extrabold mb-8 font-batman"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -64,7 +64,7 @@ export default function WorkDetails() {
 
             {/* Text Section */}
             <motion.div
-              className="lg:w-[65%] w-full flex md:p-10 flex-col justify-center space-y-4"
+              className="lg:w-[65%] w-full flex md:p-10 flex-col justify-center space-y-4 font-grace"
               {...(isLaptop && {
                 whileInView: index % 2 !== 0 ? { x: 10 } : { x: -10 },
                 initial: { opacity: 0, x: index % 2 === 0 ? 100 : -100 },
