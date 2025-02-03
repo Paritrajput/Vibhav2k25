@@ -12,12 +12,13 @@ function Card({ name, image }) {
       <motion.div
         className="flex max-w-sm flex-col gap-12 rounded-[20px] p-8 bg-gray-900 bg-opacity-30 shadow-[0_20px_40px_rgba(0,0,0,.4)]"
       >
-        <div className="relative mx-auto w-full max-w-md overflow-hidden">
-          <div className="absolute bottom-0 left-0 right-0 top-auto z-[2] h-[30%]" />
-          <div className="relative w-full">
+        <div className="relative mx-auto w-full overflow-hidden">
+          <div className="absolute bottom-0 left-0 right-0 top-auto z-[2]" />
+          <div className="relative object-cover h-96">
             <Image
               src={image}
-              className="w-full rounded-lg "
+              // height={400}
+              className="w-full rounded-lg object-cover h-[400px]"
               alt="Mobile wire frame"
               loading="lazy"
             />
