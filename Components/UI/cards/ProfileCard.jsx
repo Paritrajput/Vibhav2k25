@@ -63,14 +63,14 @@ function ProfileCard({
       <div className="absolute bottom-0 w-full group-hover:p-5 backdrop-blur-md p-2 text-white transition-all duration-500 ease-in-out group-hover:flex group-hover:flex-col group-hover:items-center overflow-hidden">
         <h1 className="text-lg font-semibold">{name}</h1>
         <p className="text-sm text-gray-300">{position}</p>
-        <div className="flex justify-center items-center space-x-4 ">
+        <div className="flex justify-center items-center space-x-4  pt-3">
           <div>
             {githubLink && (
               <a
                 href={githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-gray-400"
+                className="hover:text-gray-400 block"
               >
            
                 <FaGithub className="w-[1.6rem] h-[1.6rem]"/>
@@ -85,7 +85,7 @@ function ProfileCard({
                 href={linkdinLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-gray-400"
+                className="hover:text-gray-400 block"
               >
            
               <RiLinkedinFill  className="w-7 h-7 "/>

@@ -17,7 +17,7 @@ useEffect(()=>{
   return (
     <Layout>
       <div className="">
-          <img src="/Assets/background3.png" className="fixed h-screen w-screen z-[-1]  "/>
+          {/* <img src="/Assets/background3.png" className="fixed h-screen w-screen z-[-1]  "/> */}
     <div className="pt-32  bg-black/50 text-center z-50 font-batman">
 
       <div className="text-4xl text-white text-center font-extrabold mb-5 z-50">

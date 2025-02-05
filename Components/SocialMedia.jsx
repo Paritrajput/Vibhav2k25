@@ -9,7 +9,7 @@ import {
 import Link from "next/link";
 export default function SocialLinks() {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center  bottom-3">
       <div className="flex flex-wrap justify-center">
         <a
           aria-label="Github"

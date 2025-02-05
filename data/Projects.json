@@ -63,10 +63,16 @@
   ],
   "IoT": [
     {
+      "name": "Automatic Drug Dispenser",
+      "content": "The Automatic Drug Dispenser (ADD) revolutionizes medication management, ensuring timely and accurate dispensing for elderly and chronic patients. Integrated with ABHA IDs, it enables digital prescriptions and real-time tracking via a QR-based system. Voice-guided dosage instructions enhance accessibility, benefiting visually impaired users. By automating dispensing, ADD reduces pharmacy wait times and minimizes human errors in medication. It promotes eco-friendly, paperless healthcare with secure digital records. ADD is a game-changer, enhancing treatment adherence and making healthcare smarter and more efficient.",
+      "github": "",
+      "images": "/Assets/Projects/IOT/add.webp"
+    },
+    {
       "name": "Ajivika",
       "content": "AJIVIKA, or The Worker Booth, is a tech-driven initiative tackling unemployment in India’s unorganized sector by connecting daily wage laborers with local job opportunities. Its interactive booths and digital platform provide real-time job listings, ensuring transparency and fair wages while integrating MGNREGA cards for authenticity. By streamlining hiring and reducing middlemen exploitation, AJIVIKA empowers workers with accessible, secure employment, revolutionizing the labor market and improving livelihoods.",
       "github": "",
-      "images": "/Assets/Projects/IOT/liFi.webp"
+      "images": "/Assets/Projects/IOT/ajivika.webp"
     },
     {
       "name": "Li-Fi Based Communication System",
@@ -110,7 +116,7 @@
       "name": "VRET",
       "content": "Virtual Reality Exposure Therapy (VRET) offers a safe, drug-free approach to treating acrophobia by immersing individuals in height-related VR scenarios. Using biosensors to monitor anxiety levels, the system dynamically adjusts exposure to ensure a controlled and gradual desensitization process. This personalized therapy enhances effectiveness, eliminating the risks of traditional drug-induced treatments. VRET provides a repeatable, stress-free alternative to real-world exposure, making phobia therapy more accessible and efficient.",
       "github": "https://github.com/Team-Vibhav/VRET",
-      "images": "/Assets/Projects/AR/nithvr.webp"
+      "images": "/Assets/Projects/AR/vret.webp"
     },
 
     {
@@ -156,7 +162,7 @@
       "name": "SpidyBOT",
       "content": "SpidyBOT, inspired by spiders, enhances search and rescue missions by navigating hazardous terrains with agility. Its spider-like legs enable it to crawl through debris, scale walls, and access tight spaces where traditional robots or humans struggle. Equipped with advanced sensors and thermal imaging, it detects survivors and assesses structural risks in real time. By improving speed, accuracy, and safety, SpidyBOT revolutionizes disaster response, minimizing human risk and maximizing efficiency.",
       "github": "https://github.com/Team-Vibhav/spidy-bot",
-      "images": "/Assets/Projects/Embd/bionicarm.webp"
+      "images": "/Assets/Projects/Embd/spidy-bot.jpg"
     },
     {
       "name": "Bionic Arm",

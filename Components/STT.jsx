@@ -33,7 +33,7 @@ export default function STT() {
 
   return (
 
-    <div className="fixed z-10 top-32 grid place-items-center w-full">
+    <div className="fixed z-10 top-[6.5rem] grid place-items-center w-full">
 
       <button
         type="button"

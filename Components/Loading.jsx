@@ -1,5 +1,5 @@
 import Image from "next/image";
-import loader from "../public/Assets/amongus.gif";
+
 import { useState, useEffect } from "react";
 export default function Loading() {
   const fonts = [
