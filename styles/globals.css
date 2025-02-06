@@ -12,6 +12,31 @@ body {
   background-color: #100f12;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-attachment: fixed;
+  background-image: url("/Assets/greenBack.png"); 
+ 
+  
+  background-repeat: no-repeat;
+
+
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden; 
+  overflow-y: auto;
+  scrollbar-width: thin;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  z-index: -1; 
+
+
+}
+
+
 @media (min-width: 650px) {
   body {
     font-family: Arial, Helvetica, sans-serif;
@@ -34,66 +59,8 @@ body {
   
   }
 }
-.pixel-loader {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  align-items: center;
-  padding: 20px;
-}
-
-.pixel-row {
-  display: flex;
-  gap: 3px;
-}
-
-.pixel {
-  width: 15px;
-  height: 15px;
-  background-color: black; /* Default background */
-  transition: background-color 0.3s ease-in-out;
-}
-
-.pixel.on {
-  background-color: blue; /* Letter color */
-  box-shadow: 0px 0px 5px rgba(0, 0, 255, 0.8);
-}
-
-.pixel.off {
-  background-color: black; /* Background color */
-}
-.landing-video {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%);
-  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0.3) 85%, rgba(0, 0, 0, 0) 100%);
-}
 
 
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-attachment: fixed;
-  background-image: url("/Assets/background5.png"); 
- 
-  
-  background-repeat: no-repeat;
-
-
-  background-position: center;
-  background-size: cover;
-  overflow-x: hidden; 
-  overflow-y: auto;
-  scrollbar-width: thin;
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-  color: white;
-  z-index: -1; 
-
-}
 
 
 
@@ -234,7 +201,7 @@ html {
   /* Firefox */
   * {
       scrollbar-width: thin;
-      scrollbar-color: #00470dac #f8f8f803;
+      scrollbar-color: #373737ac #f8f8f803;
   }
 }
 

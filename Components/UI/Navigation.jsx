@@ -294,7 +294,7 @@ export default function Navigation() {
 
   return isMobile ? (
     <div
-      className={`navbar fixed   z-[100] inset-0 flex flex-col w-full h-fit  top-0 z-90 transition-colors duration-300
+      className={`navbar fixed font-orbitron  z-[100] inset-0 flex flex-col w-full h-fit  top-0 z-90 transition-colors duration-300
       ease-in-out ${isVisible ? " " : ""} `}
     >
       <ul className="flex items-center   bg-black/20 backdrop-blur-lg justify-between px-3 py-1 mx-auto w-full ">
@@ -338,17 +338,17 @@ export default function Navigation() {
       </ul>
 
       <div
-        className={` transition-all duration-700 delay-100 ease-in-out fixed top-14 backdrop-blur-lg w-[100%]   overflow-hidden ${
+        className={` transition-all duration-700 delay-100 ease-in-out fixed top-14 backdrop-blur-lg w-[100%] overflow-y-auto ${
           showNavbar ? " h-full" : " h-0"
         } `}
       >
         <div className="flex h-screen flex-col justify-between border-e text-gray-100">
           <div className="px-4 py-6">
-            <ul className="mt-6 space-y-1">
+            <ul className="mt-6 space-y-1 ">
               <li>
                 <a
                   href="/"
-                  className="block rounded-lg px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-gray-900"
+                  className="block rounded-lg px-4 py-2 text-sm font-medium  hover:bg-gray-800/30 hover:text-gray-200"
                 >
                   Home
                 </a>
@@ -356,7 +356,7 @@ export default function Navigation() {
 
               <li>
                 <details className="group menu [&_summary::-webkit-details-marker]:hidden">
-                  <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2">
+                  <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2  hover:bg-gray-800/30 hover:text-gray-200">
                     <span className="text-sm font-medium"> Projects </span>
 
                     <span className="shrink-0 transition duration-300 group-open:-rotate-180">
@@ -379,7 +379,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/ai-ml"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-1 text-sm font-medium text-gray-400  hover:bg-gray-800/30 hover:text-gray-200"
                       >
                         AI/ML
                       </a>
@@ -388,7 +388,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/ar-vr"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-1 text-sm font-medium text-gray-400 hover:bg-gray-800/30 hover:text-gray-200"
                       >
                         AR/VR
                       </a>
@@ -397,7 +397,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/iot"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-1 text-sm font-medium text-gray-400 hover:bg-gray-800/30 hover:text-gray-200"
                       >
                         IOT
                       </a>
@@ -406,7 +406,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/dsp"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-1 text-sm font-medium text-gray-400  hover:bg-gray-800/30 hover:text-gray-200"
                       >
                         DSP
                       </a>
@@ -415,7 +415,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/embedded"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-1 text-sm font-medium text-gray-400  hover:bg-gray-800/30 hover:text-gray-200"
                       >
                         EMBEDDED SYSTEMS
                       </a>
@@ -424,7 +424,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/projects/quantum"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-1 text-sm font-medium text-gray-400  hover:bg-gray-800/30 hover:text-gray-200"
                       >
                         QUANTAM COMPUTING
                       </a>
@@ -435,7 +435,7 @@ export default function Navigation() {
 
               <li>
                 <details className="group menu [&_summary::-webkit-details-marker]:hidden">
-                  <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2">
+                  <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2  hover:bg-gray-800/30 hover:text-gray-200">
                     <span className="text-sm font-medium"> Team </span>
 
                     <span className="shrink-0 transition duration-300 group-open:-rotate-180">
@@ -458,7 +458,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/team/current-team"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-1 text-sm font-medium text-gray-400  hover:bg-gray-800/30 hover:text-gray-200"
                       >
                         Current
                       </a>
@@ -467,7 +467,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/team/alumni"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-1 text-sm font-medium text-gray-400  hover:bg-gray-800/30 hover:text-gray-200"
                       >
                         Alumni
                       </a>
@@ -478,7 +478,7 @@ export default function Navigation() {
 
               <li>
                 <details className="group menu [&_summary::-webkit-details-marker]:hidden">
-                  <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2">
+                  <summary className="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2  hover:bg-gray-800/30 hover:text-gray-200">
                     <span className="text-sm font-medium"> Work </span>
 
                     <span className="shrink-0 transition duration-300 group-open:-rotate-180">
@@ -501,7 +501,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/work/current-year"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-1 text-sm font-medium text-gray-400  hover:bg-gray-800/30 hover:text-gray-200"
                       >
                         Current Year
                       </a>
@@ -510,7 +510,7 @@ export default function Navigation() {
                     <li>
                       <a
                         href="/work/previous-year"
-                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-400 hover:bg-gray-100 hover:text-gray-700"
+                        className="block rounded-lg px-4 py-1 text-sm font-medium text-gray-400  hover:bg-gray-800/30 hover:text-gray-200"
                       >
                         Previous Year
                       </a>
@@ -527,7 +527,7 @@ export default function Navigation() {
                   }, 800);
                 }}
               >
-                <span className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-100 hover:bg-gray-100 hover:text-gray-700">
+                <span className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-100  hover:bg-gray-800/30 hover:text-gray-200">
                   Contact
                 </span>
               </li>
@@ -606,108 +606,131 @@ export default function Navigation() {
             </div>
           </div>
         )}
-        <div
-          className={`w-full  gap-x-0  gap-y-2 rounded-[var(--border-radius--menu-link)] bg-black bg-opacity-60 justify-evenly items-center flex overflow-auto p-1 max-sm:p-2 transition-custom text-xl shadow-2xl ${isVisible ? "backdrop-blur" : ""}`}
-        >
-          <p
-            onClick={(e) => {
-              handleProjectClick(e);
-            }}
-            className={`menuLink ${activeRoute.startsWith("/projects") ? "active" : ""}`}
-          >
-            <div className="group flex items-center gap-2">
-              <span
-                className={`${activeRoute.startsWith("/projects/") ? "opacity-100" : "opacity-0"} text-3xl p-0 group-hover:opacity-80`}
-              >
-                {"["}
-              </span>
-              <span className="flex items-center">Projects</span>
-              <span
-                className={`${activeRoute.startsWith("/projects/") ? "opacity-100" : "opacity-0"} text-3xl p-0 group-hover:opacity-80`}
-              >
-                {"]"}
-              </span>
-            </div>
-          </p>
-          <p
-            onClick={(e) => {
-              handleWorkClick(e);
-            }}
-            className={`menuLink ${activeRoute.startsWith("/work/") ? "active" : ""}`}
-          >
-            <div className="group flex items-center gap-2">
-              <span
-                className={`${activeRoute.startsWith("/work/") ? "opacity-100" : "opacity-0 group-hover:opacity-80"} text-3xl p-0 group-hover:opacity-80`}
-              >
-                {"["}
-              </span>
-              <span className=" flex items-center">Work</span>
-              <span
-                className={`${activeRoute.startsWith("/work/") ? "opacity-100" : "opacity-0 group-hover:opacity-80"} text-3xl p-0 group-hover:opacity-80`}
-              >
-                {"]"}
-              </span>
-            </div>
-          </p>
+<div
+  className={`w-full flex gap-x-0 gap-y-2 rounded-[var(--border-radius--menu-link)] 
+    bg-black bg-opacity-60 justify-evenly items-center overflow-auto p-1 max-sm:p-2 
+    transition-custom text-xl shadow-2xl shadow-yellow/10
+ backdrop-blur-md 
+    ${isVisible ? "backdrop-blur" : ""}`}
+>
 
-          <Link
-            href="/"
-            className={`menuLink ${location.pathname === "/" ? "active" : ""}`}
-          >
-            <div className="group flex items-center gap-2">
-              <span
-                className={`${location.pathname === "/" ? "opacity-100" : "group-hover:opacity-80 opacity-0"} text-3xl p-0 `}
-              >
-                {"["}
-              </span>
-              <span className="flex items-center">Home</span>
-              <span
-                className={`${location.pathname === "/" ? "opacity-100" : "group-hover:opacity-80 opacity-0"} text-3xl p-0 `}
-              >
-                {"]"}
-              </span>
-            </div>
-          </Link>
+  {/* Projects */}
+  <p
+    onClick={handleProjectClick}
+    className={`menuLink ${activeRoute.startsWith("/projects") ? "active" : ""}`}
+  >
+    <div className="group flex items-center gap-2">
+      <span
+        className={`text-3xl transition-opacity pb-[1px] ${
+          activeRoute.startsWith("/projects/") || ProjectVisible
+            ? "opacity-100"
+            : "opacity-0 group-hover:opacity-80"
+        }`}
+      >
+        {"["}
+      </span>
+      <span className="flex items-center h-full leading-none pt-[1px]">Projects</span>
+      <span
+        className={`text-3xl transition-opacity pb-[1px] ${
+          activeRoute.startsWith("/projects/") || ProjectVisible
+            ? "opacity-100"
+            : "opacity-0 group-hover:opacity-80"
+        }`}
+      >
+        {"]"}
+      </span>
+    </div>
+  </p>
 
-          <p
-            onClick={(e) => {
-              handleTeamClick(e);
-            }}
-            className={`menuLink ${activeRoute.startsWith("/team") ? "active" : ""}`}
-          >
-            <div className="group flex items-center gap-2">
-              <span
-                className={`${activeRoute.startsWith("/team/") ? "opacity-100" : "opacity-0 group-hover:opacity-80"} text-3xl p-0 `}
-              >
-                {"["}
-              </span>
-              <span className="flex items-center">Team</span>
-              <span
-                className={`${activeRoute.startsWith("/team/") ? "opacity-100" : "opacity-0 group-hover:opacity-80"} text-3xl p-0 `}
-              >
-                {"]"}
-              </span>
-            </div>
-          </p>
+  {/* Work */}
+  <p
+    onClick={handleWorkClick}
+    className={`menuLink ${activeRoute.startsWith("/work/") ? "active" : ""}`}
+  >
+    <div className="group flex items-center gap-2">
+      <span
+        className={`text-3xl transition-opacity pb-[1px] ${
+          activeRoute.startsWith("/work/") || WorkVisible
+            ? "opacity-100"
+            : "opacity-0 group-hover:opacity-80"
+        }`}
+      >
+        {"["}
+      </span>
+      <span className="flex items-center h-full leading-none pt-[1px]">Work</span>
+      <span
+        className={`text-3xl transition-opacity pb-[1px] ${
+          activeRoute.startsWith("/work/") || WorkVisible
+            ? "opacity-100"
+            : "opacity-0 group-hover:opacity-80"
+        }`}
+      >
+        {"]"}
+      </span>
+    </div>
+  </p>
 
-          <Link href="/" scroll={false}>
-            <p onClick={scrollToBottom} className="menuLink">
-              <div className="group flex items-center gap-2">
-                <span
-                  className={`opacity-0 group-hover:opacity-80 text-3xl p-0 `}
-                >
-                  {"["}
-                </span>
-                <span className="flex items-center">Contact</span>
-                <span
-                  className={` opacity-0 group-hover:opacity-80 text-3xl p-0 `}
-                >
-                  {"]"}
-                </span>
-              </div>
-            </p>
-          </Link>
-        </div>
+  {/* Home */}
+  <Link href="/" className={`menuLink ${location.pathname === "/" ? "active" : ""}`}>
+    <div className="group flex items-center gap-2">
+      <span
+        className={`text-3xl transition-opacity pb-[1px] ${
+          location.pathname === "/" ? "opacity-100" : "opacity-0 group-hover:opacity-80 "
+        }`}
+      >
+        {"["}
+      </span>
+      <span className="flex items-center h-full leading-none pt-[1px]">Home</span>
+      <span
+        className={`text-3xl transition-opacity pb-[1px] ${
+          location.pathname === "/" ? "opacity-100" : "opacity-0 group-hover:opacity-80"
+        }`}
+      >
+        {"]"}
+      </span>
+    </div>
+  </Link>
+
+  {/* Team */}
+  <p
+    onClick={handleTeamClick}
+    className={`menuLink ${activeRoute.startsWith("/team") ? "active" : ""}`}
+  >
+    <div className="group flex items-center gap-2">
+      <span
+        className={`text-3xl transition-opacity pb-[1px] ${
+          activeRoute.startsWith("/team/") || TeamVisible
+            ? "opacity-100"
+            : "opacity-0 group-hover:opacity-80"
+        }`}
+      >
+        {"["}
+      </span>
+      <span className="flex items-center h-full leading-none pt-[1px]">Team</span>
+      <span
+        className={`text-3xl transition-opacity pb-[1px] ${
+          activeRoute.startsWith("/team/") || TeamVisible
+            ? "opacity-100"
+            : "opacity-0 group-hover:opacity-80"
+        }`}
+      >
+        {"]"}
+      </span>
+    </div>
+  </p>
+
+  {/* Contact */}
+  <Link href="/" scroll={false}>
+    <p onClick={scrollToBottom} className="menuLink">
+      <div className="group flex items-center gap-2">
+        <span className="text-3xl opacity-0 group-hover:opacity-80 pb-[1px]">{"["}</span>
+        <span className="flex items-center h-full leading-none pt-[1px]">Contact</span>
+        <span className="text-3xl opacity-0 group-hover:opacity-80 pb-[1px]">{"]"}</span>
+      </div>
+    </p>
+  </Link>
+</div>
+
       </nav>
       <Link href="https://festnimbus.nith.ac.in">
         <div className="pr-5 z-50">

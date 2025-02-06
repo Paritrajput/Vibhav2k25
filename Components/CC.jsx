@@ -12,7 +12,7 @@ import Link from "next/link";
 function Card({ name, image ,github, linkdin}) {
   return (
     <Fade bottom distance="30px">
-      <motion.div className="flex max-w-sm flex-col gap-12 rounded-[20px] p-5 bg-gray-900 bg-opacity-30 shadow-[0_20px_40px_rgba(0,0,0,.4)] justify-end items-center relative">
+      <motion.div className="flex max-w-sm flex-col gap-12 rounded-[20px] p-5 bg-gray-600/30 bg-opacity-30 shadow-[0_20px_40px_rgba(0,0,0,.4)] justify-end items-center relative">
         <div className="relative mx-auto w-full max-w-md overflow-hidden">
           <div className="relative w-full ">
             <Image
@@ -101,7 +101,7 @@ export default function CC() {
                 }
                 transition={{ duration: 0.4 }}
               >
-                <Card name="Vishesh Chadha" image={CC1} github="https://github.com/Vishesh0718"linkdin= "https://www.linkedin.com/in/vishesh-chadha-a9172525a"/>
+                <Card name="Vishesh Chadha" image={CC1} github="https://github.com/Vishesh0718" linkdin= "https://www.linkedin.com/in/vishesh-chadha-a9172525a"/>
               </motion.div>
               <motion.div
                 initial={

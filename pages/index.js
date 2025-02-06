@@ -3,13 +3,13 @@ import Head from "next/head";
 import Layout from "../Components/UI/Layout";
 import FAQs from "../Components/UI/FAQs";
 import Contact from "../Components/Contact";
-import backgroundImage2 from "../public/Assets/background.jpg";
-import Image from "next/image";
+
 import LandingPage from "../Components/LandingPage";
 import CC from "../Components/CC";
 import Gallery from "../Components/Gallery";
 import AboutUs from "../Components/AboutUs";
-import { useEffect, useRef } from "react";
+
+import GameSection from "../Components/GameSection";
 
 export default function Home() {
  
@@ -61,6 +61,7 @@ export default function Home() {
             {/* Other Sections */}
             <Gallery />
             <CC />
+            <GameSection/>
             <FAQs />
             <Contact />
             </section>
